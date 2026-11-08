@@ -1,0 +1,5898 @@
+{
+  "version": 1,
+  "settings": {
+    "schoolName": "银叶湾幼儿园",
+    "warehouseName": "园务仓库",
+    "keeper": "王老师",
+    "phone": "",
+    "address": "园务楼一层",
+    "termStart": "2026-09-01",
+    "termEnd": "2027-01-25"
+  },
+  "users": [
+    {
+      "id": "usr_demo",
+      "username": "demo",
+      "name": "王老师",
+      "role": "保管员",
+      "passwordHash": "",
+      "passwordUpdatedAt": "2026-10-26",
+      "isPrimary": true,
+      "createdAt": "2026-10-26",
+      "updatedAt": "2026-10-26"
+    }
+  ],
+  "items": [
+    {
+      "id": "itm_001",
+      "code": "BG-0101",
+      "name": "A4 复印纸",
+      "spec": "70g / 500 张·包",
+      "category": "办公用品",
+      "unit": "包",
+      "location": "A 区-01-01",
+      "safetyStock": 30,
+      "price": 22,
+      "keeper": "王老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_002",
+      "code": "BG-0102",
+      "name": "中性笔",
+      "spec": "0.5mm 黑色",
+      "category": "办公用品",
+      "unit": "支",
+      "location": "A 区-01-02",
+      "safetyStock": 100,
+      "price": 1.5,
+      "keeper": "李老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_003",
+      "code": "BG-0103",
+      "name": "白板笔",
+      "spec": "可擦 黑色",
+      "category": "办公用品",
+      "unit": "支",
+      "location": "A 区-01-03",
+      "safetyStock": 20,
+      "price": 3.2,
+      "keeper": "陈老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_004",
+      "code": "BG-0104",
+      "name": "文件袋",
+      "spec": "A4 塑料 透明",
+      "category": "办公用品",
+      "unit": "个",
+      "location": "A 区-02-04",
+      "safetyStock": 50,
+      "price": 0.8,
+      "keeper": "王老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_005",
+      "code": "BG-0105",
+      "name": "订书机",
+      "spec": "12# 中号",
+      "category": "办公用品",
+      "unit": "个",
+      "location": "A 区-02-01",
+      "safetyStock": 5,
+      "price": 18,
+      "keeper": "李老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_006",
+      "code": "BG-0106",
+      "name": "便利贴",
+      "spec": "76×76mm 黄色",
+      "category": "办公用品",
+      "unit": "本",
+      "location": "A 区-02-02",
+      "safetyStock": 30,
+      "price": 2.5,
+      "keeper": "陈老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_007",
+      "code": "JJ-0101",
+      "name": "粉笔",
+      "spec": "白色 无尘",
+      "category": "教学教具",
+      "unit": "盒",
+      "location": "B 区-01-03",
+      "safetyStock": 20,
+      "price": 4,
+      "keeper": "王老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_008",
+      "code": "BG-0107",
+      "name": "试卷袋",
+      "spec": "A3 牛皮纸",
+      "category": "办公用品",
+      "unit": "个",
+      "location": "A 区-03-03",
+      "safetyStock": 80,
+      "price": 0.6,
+      "keeper": "李老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_009",
+      "code": "HC-0101",
+      "name": "奖状",
+      "spec": "A4 铜版纸",
+      "category": "环创装饰",
+      "unit": "张",
+      "location": "J 区-01-01",
+      "safetyStock": 100,
+      "price": 0.5,
+      "keeper": "陈老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_010",
+      "code": "DZ-0101",
+      "name": "5 号电池",
+      "spec": "碱性 1.5V",
+      "category": "电子设备",
+      "unit": "节",
+      "location": "K 区-01-01",
+      "safetyStock": 60,
+      "price": 2,
+      "keeper": "王老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_011",
+      "code": "JJ-0102",
+      "name": "烧杯",
+      "spec": "250ml 玻璃",
+      "category": "教学教具",
+      "unit": "个",
+      "location": "B 区-01-02",
+      "safetyStock": 10,
+      "price": 6,
+      "keeper": "李老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_012",
+      "code": "JJ-0103",
+      "name": "量筒",
+      "spec": "100ml 玻璃",
+      "category": "教学教具",
+      "unit": "个",
+      "location": "B 区-01-03",
+      "safetyStock": 8,
+      "price": 9,
+      "keeper": "陈老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_013",
+      "code": "JJ-0104",
+      "name": "酒精灯",
+      "spec": "150ml",
+      "category": "教学教具",
+      "unit": "个",
+      "location": "B 区-02-04",
+      "safetyStock": 6,
+      "price": 12,
+      "keeper": "王老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_014",
+      "code": "JJ-0105",
+      "name": "护目镜",
+      "spec": "防化学飞溅",
+      "category": "教学教具",
+      "unit": "副",
+      "location": "B 区-02-01",
+      "safetyStock": 20,
+      "price": 15,
+      "keeper": "李老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_015",
+      "code": "JJ-0106",
+      "name": "pH 试纸",
+      "spec": "1-14 广泛型",
+      "category": "教学教具",
+      "unit": "盒",
+      "location": "B 区-02-02",
+      "safetyStock": 10,
+      "price": 8,
+      "keeper": "陈老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_016",
+      "code": "HW-0101",
+      "name": "篮球",
+      "spec": "7 号 标准",
+      "category": "户外运动",
+      "unit": "个",
+      "location": "F 区-01-01",
+      "safetyStock": 8,
+      "price": 68,
+      "keeper": "王老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_017",
+      "code": "HW-0102",
+      "name": "跳绳",
+      "spec": "3m 橡胶",
+      "category": "户外运动",
+      "unit": "根",
+      "location": "F 区-01-02",
+      "safetyStock": 20,
+      "price": 6,
+      "keeper": "李老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_018",
+      "code": "HW-0103",
+      "name": "实心球",
+      "spec": "2kg",
+      "category": "户外运动",
+      "unit": "个",
+      "location": "F 区-01-03",
+      "safetyStock": 6,
+      "price": 25,
+      "keeper": "陈老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_019",
+      "code": "HW-0104",
+      "name": "标志桶",
+      "spec": "30cm 带孔",
+      "category": "户外运动",
+      "unit": "个",
+      "location": "F 区-02-04",
+      "safetyStock": 15,
+      "price": 7,
+      "keeper": "王老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_020",
+      "code": "QJ-0101",
+      "name": "垃圾袋",
+      "spec": "60×80cm 加厚",
+      "category": "清洁用品",
+      "unit": "卷",
+      "location": "H 区-01-01",
+      "safetyStock": 30,
+      "price": 5,
+      "keeper": "李老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_021",
+      "code": "QJ-0102",
+      "name": "洗手液",
+      "spec": "500ml 按压",
+      "category": "清洁用品",
+      "unit": "瓶",
+      "location": "H 区-01-02",
+      "safetyStock": 15,
+      "price": 12,
+      "keeper": "陈老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_022",
+      "code": "QJ-0103",
+      "name": "拖把",
+      "spec": "棉线 木柄",
+      "category": "清洁用品",
+      "unit": "把",
+      "location": "H 区-01-03",
+      "safetyStock": 10,
+      "price": 18,
+      "keeper": "王老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_023",
+      "code": "DZ-0102",
+      "name": "无线鼠标",
+      "spec": "2.4G 静音",
+      "category": "电子设备",
+      "unit": "个",
+      "location": "K 区-01-02",
+      "safetyStock": 5,
+      "price": 45,
+      "keeper": "李老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_024",
+      "code": "DZ-0103",
+      "name": "HDMI 线",
+      "spec": "2m 4K",
+      "category": "电子设备",
+      "unit": "根",
+      "location": "K 区-01-03",
+      "safetyStock": 6,
+      "price": 28,
+      "keeper": "陈老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_025",
+      "code": "DZ-0104",
+      "name": "U 盘",
+      "spec": "64G USB3.0",
+      "category": "电子设备",
+      "unit": "个",
+      "location": "K 区-02-04",
+      "safetyStock": 5,
+      "price": 39,
+      "keeper": "王老师",
+      "createdAt": "2026-06-27"
+    },
+    {
+      "id": "itm_026",
+      "code": "TS-0101",
+      "name": "绘本《猜猜我有多爱你》",
+      "spec": "精装 硬壳",
+      "category": "图书绘本",
+      "unit": "本",
+      "location": "C 区-01-01",
+      "safetyStock": 5,
+      "price": 28,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_027",
+      "code": "MG-0101",
+      "name": "水彩笔",
+      "spec": "24 色 可水洗",
+      "category": "美工材料",
+      "unit": "盒",
+      "location": "D 区-01-01",
+      "safetyStock": 12,
+      "price": 16,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_028",
+      "code": "MG-0102",
+      "name": "彩泥",
+      "spec": "12 色 安全无毒",
+      "category": "美工材料",
+      "unit": "盒",
+      "location": "D 区-01-02",
+      "safetyStock": 15,
+      "price": 12,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_029",
+      "code": "MG-0103",
+      "name": "儿童安全剪刀",
+      "spec": "圆头 塑料柄",
+      "category": "美工材料",
+      "unit": "把",
+      "location": "D 区-01-03",
+      "safetyStock": 20,
+      "price": 6,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_030",
+      "code": "WJ-0101",
+      "name": "拼插积木",
+      "spec": "300 粒 大颗粒",
+      "category": "玩具器械",
+      "unit": "套",
+      "location": "E 区-01-01",
+      "safetyStock": 8,
+      "price": 68,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_031",
+      "code": "WJ-0102",
+      "name": "桌面拼图",
+      "spec": "60 片 动物",
+      "category": "玩具器械",
+      "unit": "套",
+      "location": "E 区-01-02",
+      "safetyStock": 10,
+      "price": 25,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_032",
+      "code": "HW-0105",
+      "name": "皮球",
+      "spec": "4 号 橡胶",
+      "category": "户外运动",
+      "unit": "个",
+      "location": "F 区-01-01",
+      "safetyStock": 8,
+      "price": 28,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_033",
+      "code": "HW-0106",
+      "name": "呼啦圈",
+      "spec": "直径 50cm",
+      "category": "户外运动",
+      "unit": "个",
+      "location": "F 区-01-02",
+      "safetyStock": 10,
+      "price": 15,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_034",
+      "code": "SH-0101",
+      "name": "抽纸",
+      "spec": "3 层 100 抽",
+      "category": "生活用品",
+      "unit": "提",
+      "location": "G 区-01-01",
+      "safetyStock": 20,
+      "price": 12,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_035",
+      "code": "SH-0102",
+      "name": "儿童水杯",
+      "spec": "304 不锈钢",
+      "category": "生活用品",
+      "unit": "个",
+      "location": "G 区-01-02",
+      "safetyStock": 15,
+      "price": 25,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_036",
+      "code": "BJ-0101",
+      "name": "创可贴",
+      "spec": "100 片 / 盒",
+      "category": "保健用品",
+      "unit": "盒",
+      "location": "I 区-01-01",
+      "safetyStock": 5,
+      "price": 9,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_037",
+      "code": "HC-0102",
+      "name": "主题墙贴",
+      "spec": "大号 可移除",
+      "category": "环创装饰",
+      "unit": "套",
+      "location": "J 区-01-02",
+      "safetyStock": 5,
+      "price": 35,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "itm_038",
+      "code": "AQ-0101",
+      "name": "防撞条",
+      "spec": "2m / 卷 加厚",
+      "category": "安全防护",
+      "unit": "卷",
+      "location": "L 区-01-01",
+      "safetyStock": 10,
+      "price": 18,
+      "keeper": "王老师",
+      "createdAt": "2026-10-26"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "sup_001",
+      "name": "文教用品供应商",
+      "contact": "负责人",
+      "phone": ""
+    },
+    {
+      "id": "sup_002",
+      "name": "教具供应商",
+      "contact": "负责人",
+      "phone": ""
+    },
+    {
+      "id": "sup_003",
+      "name": "运动器材店",
+      "contact": "负责人",
+      "phone": ""
+    },
+    {
+      "id": "sup_004",
+      "name": "清洁用品供应商",
+      "contact": "负责人",
+      "phone": ""
+    },
+    {
+      "id": "sup_005",
+      "name": "数码用品店",
+      "contact": "负责人",
+      "phone": ""
+    }
+  ],
+  "departments": [
+    {
+      "id": "dep_001",
+      "name": "园长室",
+      "contact": ""
+    },
+    {
+      "id": "dep_002",
+      "name": "园务办公室",
+      "contact": ""
+    },
+    {
+      "id": "dep_003",
+      "name": "小一班",
+      "contact": ""
+    },
+    {
+      "id": "dep_004",
+      "name": "小二班",
+      "contact": ""
+    },
+    {
+      "id": "dep_005",
+      "name": "中一班",
+      "contact": ""
+    },
+    {
+      "id": "dep_006",
+      "name": "大一班",
+      "contact": ""
+    },
+    {
+      "id": "dep_007",
+      "name": "保健室",
+      "contact": ""
+    },
+    {
+      "id": "dep_008",
+      "name": "图书角",
+      "contact": ""
+    }
+  ],
+  "docs": [
+    {
+      "id": "doc_0100",
+      "no": "CK2026-0072",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-25",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_005",
+      "receiver": "郑老师",
+      "purpose": "实验课程",
+      "lines": [
+        {
+          "itemId": "itm_011",
+          "qty": 2,
+          "price": 6
+        },
+        {
+          "itemId": "itm_015",
+          "qty": 1,
+          "price": 8
+        }
+      ],
+      "createdAt": "2026-10-25"
+    },
+    {
+      "id": "doc_0101",
+      "no": "RK2026-0029",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-10-25",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_002",
+      "note": "实验室补充采购",
+      "lines": [
+        {
+          "itemId": "itm_012",
+          "qty": 10,
+          "price": 8.8
+        },
+        {
+          "itemId": "itm_013",
+          "qty": 6,
+          "price": 11.5
+        }
+      ],
+      "createdAt": "2026-10-25"
+    },
+    {
+      "id": "doc_0102",
+      "no": "CK2026-0073",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-25",
+      "status": "草稿",
+      "operator": "陈老师",
+      "partnerId": "dep_007",
+      "receiver": "陈老师",
+      "purpose": "运动会筹备",
+      "note": "待体育组确认后提交",
+      "lines": [
+        {
+          "itemId": "itm_016",
+          "qty": 4,
+          "price": 68
+        },
+        {
+          "itemId": "itm_019",
+          "qty": 10,
+          "price": 7
+        }
+      ],
+      "createdAt": "2026-10-25"
+    },
+    {
+      "id": "doc_0095",
+      "no": "CK2026-0067",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-24",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_001",
+      "receiver": "赵老师",
+      "purpose": "开学物资发放",
+      "note": "各年级组开学物资统一发放",
+      "lines": [
+        {
+          "itemId": "itm_020",
+          "qty": 125,
+          "price": 5
+        }
+      ],
+      "createdAt": "2026-10-24"
+    },
+    {
+      "id": "doc_0093",
+      "no": "CK2026-0065",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-23",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_004",
+      "receiver": "吴老师",
+      "purpose": "卫生打扫",
+      "lines": [
+        {
+          "itemId": "itm_020",
+          "qty": 3,
+          "price": 5
+        },
+        {
+          "itemId": "itm_005",
+          "qty": 2,
+          "price": 18
+        }
+      ],
+      "createdAt": "2026-10-23"
+    },
+    {
+      "id": "doc_0094",
+      "no": "CK2026-0066",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-23",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_005",
+      "receiver": "吴老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_021",
+          "qty": 5,
+          "price": 12
+        },
+        {
+          "itemId": "itm_005",
+          "qty": 9,
+          "price": 18
+        },
+        {
+          "itemId": "itm_001",
+          "qty": 11,
+          "price": 22
+        }
+      ],
+      "createdAt": "2026-10-23"
+    },
+    {
+      "id": "doc_0096",
+      "no": "CK2026-0068",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-23",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_002",
+      "receiver": "孙老师",
+      "purpose": "开学物资发放",
+      "note": "各年级组开学物资统一发放",
+      "lines": [
+        {
+          "itemId": "itm_015",
+          "qty": 114,
+          "price": 8
+        }
+      ],
+      "createdAt": "2026-10-23"
+    },
+    {
+      "id": "doc_0090",
+      "no": "RK2026-0028",
+      "kind": "in",
+      "type": "调拨入库",
+      "date": "2026-10-22",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "sup_002",
+      "lines": [
+        {
+          "itemId": "itm_009",
+          "qty": 20,
+          "price": 0.49
+        }
+      ],
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "doc_0091",
+      "no": "CK2026-0063",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-10-22",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_007",
+      "receiver": "吴老师",
+      "purpose": "实验课程",
+      "lines": [
+        {
+          "itemId": "itm_007",
+          "qty": 4,
+          "price": 4
+        }
+      ],
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "doc_0092",
+      "no": "CK2026-0064",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-22",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_002",
+      "receiver": "郑老师",
+      "purpose": "实验课程",
+      "lines": [
+        {
+          "itemId": "itm_019",
+          "qty": 10,
+          "price": 7
+        }
+      ],
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "doc_0097",
+      "no": "CK2026-0069",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-22",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_001",
+      "receiver": "赵老师",
+      "purpose": "开学物资发放",
+      "note": "各年级组开学物资统一发放",
+      "lines": [
+        {
+          "itemId": "itm_007",
+          "qty": 112,
+          "price": 4
+        }
+      ],
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "doc_0089",
+      "no": "CK2026-0062",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-10-21",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_001",
+      "receiver": "冯老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_022",
+          "qty": 9,
+          "price": 18
+        },
+        {
+          "itemId": "itm_018",
+          "qty": 3,
+          "price": 25
+        }
+      ],
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "doc_0098",
+      "no": "CK2026-0070",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-21",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_002",
+      "receiver": "孙老师",
+      "purpose": "开学物资发放",
+      "note": "各年级组开学物资统一发放",
+      "lines": [
+        {
+          "itemId": "itm_017",
+          "qty": 107,
+          "price": 6
+        }
+      ],
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "doc_0087",
+      "no": "RK2026-0027",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-10-20",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "sup_005",
+      "lines": [
+        {
+          "itemId": "itm_024",
+          "qty": 38,
+          "price": 29.11
+        },
+        {
+          "itemId": "itm_023",
+          "qty": 10,
+          "price": 45.42
+        },
+        {
+          "itemId": "itm_015",
+          "qty": 37,
+          "price": 7.6
+        }
+      ],
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "doc_0088",
+      "no": "CK2026-0061",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-20",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_005",
+      "receiver": "吴老师",
+      "purpose": "日常教学",
+      "lines": [
+        {
+          "itemId": "itm_014",
+          "qty": 1,
+          "price": 15
+        }
+      ],
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "doc_0099",
+      "no": "CK2026-0071",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-20",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_001",
+      "receiver": "赵老师",
+      "purpose": "开学物资发放",
+      "note": "各年级组开学物资统一发放",
+      "lines": [
+        {
+          "itemId": "itm_003",
+          "qty": 103,
+          "price": 3.2
+        }
+      ],
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "doc_0086",
+      "no": "CK2026-0060",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-19",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_003",
+      "receiver": "周老师",
+      "purpose": "设备维护",
+      "lines": [
+        {
+          "itemId": "itm_006",
+          "qty": 12,
+          "price": 2.5
+        },
+        {
+          "itemId": "itm_010",
+          "qty": 10,
+          "price": 2
+        }
+      ],
+      "createdAt": "2026-10-19"
+    },
+    {
+      "id": "doc_0103",
+      "no": "CK2026-0074",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-19",
+      "status": "已作废",
+      "operator": "赵老师",
+      "partnerId": "dep_003",
+      "receiver": "周老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_002",
+          "qty": 30,
+          "price": 1.5
+        }
+      ],
+      "createdAt": "2026-10-19",
+      "voidedAt": "2026-10-19",
+      "voidReason": "重复开单，已合并至 CK 另一张单据"
+    },
+    {
+      "id": "doc_0084",
+      "no": "CK2026-0058",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-10-16",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_008",
+      "receiver": "冯老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_021",
+          "qty": 5,
+          "price": 12
+        },
+        {
+          "itemId": "itm_003",
+          "qty": 8,
+          "price": 3.2
+        }
+      ],
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "doc_0085",
+      "no": "CK2026-0059",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-16",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_007",
+      "receiver": "周老师",
+      "purpose": "设备维护",
+      "lines": [
+        {
+          "itemId": "itm_016",
+          "qty": 10,
+          "price": 68
+        },
+        {
+          "itemId": "itm_009",
+          "qty": 10,
+          "price": 0.5
+        },
+        {
+          "itemId": "itm_023",
+          "qty": 4,
+          "price": 45
+        }
+      ],
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "doc_0083",
+      "no": "CK2026-0057",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-15",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_005",
+      "receiver": "赵老师",
+      "purpose": "设备维护",
+      "lines": [
+        {
+          "itemId": "itm_010",
+          "qty": 4,
+          "price": 2
+        }
+      ],
+      "createdAt": "2026-10-15"
+    },
+    {
+      "id": "doc_0082",
+      "no": "CK2026-0056",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-10-14",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_007",
+      "receiver": "吴老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_013",
+          "qty": 8,
+          "price": 12
+        }
+      ],
+      "createdAt": "2026-10-14"
+    },
+    {
+      "id": "doc_0081",
+      "no": "RK2026-0026",
+      "kind": "in",
+      "type": "退回入库",
+      "date": "2026-10-13",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_005",
+      "lines": [
+        {
+          "itemId": "itm_025",
+          "qty": 31,
+          "price": 37.5
+        },
+        {
+          "itemId": "itm_009",
+          "qty": 11,
+          "price": 0.47
+        }
+      ],
+      "createdAt": "2026-10-13"
+    },
+    {
+      "id": "doc_0078",
+      "no": "RK2026-0025",
+      "kind": "in",
+      "type": "退回入库",
+      "date": "2026-10-12",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "sup_002",
+      "lines": [
+        {
+          "itemId": "itm_025",
+          "qty": 26,
+          "price": 39.32
+        },
+        {
+          "itemId": "itm_020",
+          "qty": 16,
+          "price": 4.99
+        }
+      ],
+      "createdAt": "2026-10-12"
+    },
+    {
+      "id": "doc_0079",
+      "no": "CK2026-0054",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-12",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_003",
+      "receiver": "赵老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_010",
+          "qty": 11,
+          "price": 2
+        },
+        {
+          "itemId": "itm_013",
+          "qty": 7,
+          "price": 12
+        }
+      ],
+      "createdAt": "2026-10-12"
+    },
+    {
+      "id": "doc_0080",
+      "no": "CK2026-0055",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-10-12",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_008",
+      "receiver": "孙老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_006",
+          "qty": 9,
+          "price": 2.5
+        }
+      ],
+      "createdAt": "2026-10-12"
+    },
+    {
+      "id": "doc_0077",
+      "no": "CK2026-0053",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-10-09",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_003",
+      "receiver": "冯老师",
+      "purpose": "设备维护",
+      "lines": [
+        {
+          "itemId": "itm_003",
+          "qty": 5,
+          "price": 3.2
+        },
+        {
+          "itemId": "itm_024",
+          "qty": 12,
+          "price": 28
+        }
+      ],
+      "createdAt": "2026-10-09"
+    },
+    {
+      "id": "doc_0074",
+      "no": "RK2026-0024",
+      "kind": "in",
+      "type": "调拨入库",
+      "date": "2026-10-08",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "sup_005",
+      "lines": [
+        {
+          "itemId": "itm_006",
+          "qty": 36,
+          "price": 2.37
+        }
+      ],
+      "createdAt": "2026-10-08"
+    },
+    {
+      "id": "doc_0075",
+      "no": "CK2026-0051",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-10-08",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_001",
+      "receiver": "冯老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_018",
+          "qty": 6,
+          "price": 25
+        }
+      ],
+      "createdAt": "2026-10-08"
+    },
+    {
+      "id": "doc_0076",
+      "no": "CK2026-0052",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-10-08",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_008",
+      "receiver": "冯老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_008",
+          "qty": 10,
+          "price": 0.6
+        }
+      ],
+      "createdAt": "2026-10-08"
+    },
+    {
+      "id": "doc_0072",
+      "no": "RK2026-0023",
+      "kind": "in",
+      "type": "退回入库",
+      "date": "2026-10-07",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "sup_003",
+      "lines": [
+        {
+          "itemId": "itm_023",
+          "qty": 6,
+          "price": 45.06
+        },
+        {
+          "itemId": "itm_024",
+          "qty": 40,
+          "price": 27.74
+        }
+      ],
+      "createdAt": "2026-10-07"
+    },
+    {
+      "id": "doc_0073",
+      "no": "CK2026-0050",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-07",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_008",
+      "receiver": "周老师",
+      "purpose": "实验课程",
+      "lines": [
+        {
+          "itemId": "itm_020",
+          "qty": 6,
+          "price": 5
+        },
+        {
+          "itemId": "itm_025",
+          "qty": 1,
+          "price": 39
+        },
+        {
+          "itemId": "itm_013",
+          "qty": 1,
+          "price": 12
+        }
+      ],
+      "createdAt": "2026-10-07"
+    },
+    {
+      "id": "doc_0071",
+      "no": "RK2026-0022",
+      "kind": "in",
+      "type": "退回入库",
+      "date": "2026-10-06",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_001",
+      "lines": [
+        {
+          "itemId": "itm_022",
+          "qty": 14,
+          "price": 18.06
+        },
+        {
+          "itemId": "itm_005",
+          "qty": 21,
+          "price": 17.48
+        }
+      ],
+      "createdAt": "2026-10-06"
+    },
+    {
+      "id": "doc_0104",
+      "no": "CK2026-0075",
+      "kind": "out",
+      "type": "盘亏出库",
+      "date": "2026-10-05",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_002",
+      "receiver": "王老师",
+      "purpose": "库存盘点差异调整",
+      "note": "盘点单 PD2026-0001",
+      "lines": [
+        {
+          "itemId": "itm_003",
+          "qty": 2,
+          "price": 3.2
+        }
+      ],
+      "createdAt": "2026-10-05"
+    },
+    {
+      "id": "doc_0105",
+      "no": "RK2026-0030",
+      "kind": "in",
+      "type": "盘盈入库",
+      "date": "2026-10-05",
+      "status": "已完成",
+      "operator": "陈老师",
+      "purpose": "库存盘点差异调整",
+      "note": "盘点单 PD2026-0001",
+      "lines": [
+        {
+          "itemId": "itm_007",
+          "qty": 3,
+          "price": 4
+        }
+      ],
+      "createdAt": "2026-10-05"
+    },
+    {
+      "id": "doc_0070",
+      "no": "CK2026-0049",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-10-02",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_006",
+      "receiver": "孙老师",
+      "purpose": "卫生打扫",
+      "lines": [
+        {
+          "itemId": "itm_021",
+          "qty": 11,
+          "price": 12
+        },
+        {
+          "itemId": "itm_001",
+          "qty": 9,
+          "price": 22
+        },
+        {
+          "itemId": "itm_017",
+          "qty": 2,
+          "price": 6
+        }
+      ],
+      "createdAt": "2026-10-02"
+    },
+    {
+      "id": "doc_0067",
+      "no": "RK2026-0021",
+      "kind": "in",
+      "type": "退回入库",
+      "date": "2026-10-01",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "sup_003",
+      "lines": [
+        {
+          "itemId": "itm_003",
+          "qty": 39,
+          "price": 3.21
+        }
+      ],
+      "createdAt": "2026-10-01"
+    },
+    {
+      "id": "doc_0068",
+      "no": "CK2026-0047",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-01",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_004",
+      "receiver": "吴老师",
+      "purpose": "日常教学",
+      "lines": [
+        {
+          "itemId": "itm_017",
+          "qty": 1,
+          "price": 6
+        },
+        {
+          "itemId": "itm_002",
+          "qty": 7,
+          "price": 1.5
+        }
+      ],
+      "createdAt": "2026-10-01"
+    },
+    {
+      "id": "doc_0069",
+      "no": "CK2026-0048",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-10-01",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_006",
+      "receiver": "冯老师",
+      "purpose": "设备维护",
+      "lines": [
+        {
+          "itemId": "itm_025",
+          "qty": 9,
+          "price": 39
+        }
+      ],
+      "createdAt": "2026-10-01"
+    },
+    {
+      "id": "doc_0064",
+      "no": "RK2026-0020",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-09-30",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "sup_002",
+      "lines": [
+        {
+          "itemId": "itm_001",
+          "qty": 37,
+          "price": 21.93
+        }
+      ],
+      "createdAt": "2026-09-30"
+    },
+    {
+      "id": "doc_0065",
+      "no": "CK2026-0045",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-30",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_008",
+      "receiver": "吴老师",
+      "purpose": "实验课程",
+      "lines": [
+        {
+          "itemId": "itm_015",
+          "qty": 4,
+          "price": 8
+        }
+      ],
+      "createdAt": "2026-09-30"
+    },
+    {
+      "id": "doc_0066",
+      "no": "CK2026-0046",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-30",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_006",
+      "receiver": "吴老师",
+      "purpose": "实验课程",
+      "lines": [
+        {
+          "itemId": "itm_025",
+          "qty": 1,
+          "price": 39
+        },
+        {
+          "itemId": "itm_018",
+          "qty": 1,
+          "price": 25
+        }
+      ],
+      "createdAt": "2026-09-30"
+    },
+    {
+      "id": "doc_0061",
+      "no": "RK2026-0019",
+      "kind": "in",
+      "type": "退回入库",
+      "date": "2026-09-29",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_004",
+      "lines": [
+        {
+          "itemId": "itm_009",
+          "qty": 24,
+          "price": 0.47
+        },
+        {
+          "itemId": "itm_017",
+          "qty": 12,
+          "price": 5.98
+        },
+        {
+          "itemId": "itm_020",
+          "qty": 9,
+          "price": 4.76
+        }
+      ],
+      "createdAt": "2026-09-29"
+    },
+    {
+      "id": "doc_0062",
+      "no": "CK2026-0043",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-09-29",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_003",
+      "receiver": "吴老师",
+      "purpose": "卫生打扫",
+      "lines": [
+        {
+          "itemId": "itm_012",
+          "qty": 1,
+          "price": 9
+        },
+        {
+          "itemId": "itm_005",
+          "qty": 1,
+          "price": 18
+        },
+        {
+          "itemId": "itm_014",
+          "qty": 10,
+          "price": 15
+        }
+      ],
+      "createdAt": "2026-09-29"
+    },
+    {
+      "id": "doc_0063",
+      "no": "CK2026-0044",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-09-29",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_003",
+      "receiver": "吴老师",
+      "purpose": "日常教学",
+      "lines": [
+        {
+          "itemId": "itm_004",
+          "qty": 8,
+          "price": 0.8
+        },
+        {
+          "itemId": "itm_023",
+          "qty": 1,
+          "price": 45
+        },
+        {
+          "itemId": "itm_003",
+          "qty": 4,
+          "price": 3.2
+        }
+      ],
+      "createdAt": "2026-09-29"
+    },
+    {
+      "id": "doc_0060",
+      "no": "CK2026-0042",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-27",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_006",
+      "receiver": "冯老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_018",
+          "qty": 12,
+          "price": 25
+        },
+        {
+          "itemId": "itm_006",
+          "qty": 12,
+          "price": 2.5
+        }
+      ],
+      "createdAt": "2026-09-27"
+    },
+    {
+      "id": "doc_0057",
+      "no": "RK2026-0018",
+      "kind": "in",
+      "type": "退回入库",
+      "date": "2026-09-25",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_003",
+      "lines": [
+        {
+          "itemId": "itm_018",
+          "qty": 24,
+          "price": 23.24
+        },
+        {
+          "itemId": "itm_010",
+          "qty": 24,
+          "price": 1.88
+        }
+      ],
+      "createdAt": "2026-09-25"
+    },
+    {
+      "id": "doc_0058",
+      "no": "CK2026-0040",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-09-25",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_005",
+      "receiver": "郑老师",
+      "purpose": "考试考务",
+      "lines": [
+        {
+          "itemId": "itm_006",
+          "qty": 10,
+          "price": 2.5
+        },
+        {
+          "itemId": "itm_021",
+          "qty": 8,
+          "price": 12
+        }
+      ],
+      "createdAt": "2026-09-25"
+    },
+    {
+      "id": "doc_0059",
+      "no": "CK2026-0041",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-25",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_004",
+      "receiver": "吴老师",
+      "purpose": "考试考务",
+      "lines": [
+        {
+          "itemId": "itm_003",
+          "qty": 4,
+          "price": 3.2
+        }
+      ],
+      "createdAt": "2026-09-25"
+    },
+    {
+      "id": "doc_0056",
+      "no": "RK2026-0017",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-09-24",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_004",
+      "lines": [
+        {
+          "itemId": "itm_001",
+          "qty": 14,
+          "price": 21.65
+        },
+        {
+          "itemId": "itm_024",
+          "qty": 29,
+          "price": 27.42
+        }
+      ],
+      "createdAt": "2026-09-24"
+    },
+    {
+      "id": "doc_0054",
+      "no": "CK2026-0038",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-23",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_008",
+      "receiver": "吴老师",
+      "purpose": "日常教学",
+      "lines": [
+        {
+          "itemId": "itm_015",
+          "qty": 5,
+          "price": 8
+        }
+      ],
+      "createdAt": "2026-09-23"
+    },
+    {
+      "id": "doc_0055",
+      "no": "CK2026-0039",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-09-23",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_001",
+      "receiver": "冯老师",
+      "purpose": "设备维护",
+      "lines": [
+        {
+          "itemId": "itm_011",
+          "qty": 1,
+          "price": 6
+        },
+        {
+          "itemId": "itm_022",
+          "qty": 11,
+          "price": 18
+        },
+        {
+          "itemId": "itm_021",
+          "qty": 3,
+          "price": 12
+        }
+      ],
+      "createdAt": "2026-09-23"
+    },
+    {
+      "id": "doc_0052",
+      "no": "CK2026-0036",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-21",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_003",
+      "receiver": "吴老师",
+      "purpose": "日常教学",
+      "lines": [
+        {
+          "itemId": "itm_012",
+          "qty": 2,
+          "price": 9
+        },
+        {
+          "itemId": "itm_004",
+          "qty": 2,
+          "price": 0.8
+        },
+        {
+          "itemId": "itm_016",
+          "qty": 12,
+          "price": 68
+        }
+      ],
+      "createdAt": "2026-09-21"
+    },
+    {
+      "id": "doc_0053",
+      "no": "CK2026-0037",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-21",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_005",
+      "receiver": "吴老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_022",
+          "qty": 1,
+          "price": 18
+        },
+        {
+          "itemId": "itm_005",
+          "qty": 3,
+          "price": 18
+        },
+        {
+          "itemId": "itm_006",
+          "qty": 9,
+          "price": 2.5
+        }
+      ],
+      "createdAt": "2026-09-21"
+    },
+    {
+      "id": "doc_0051",
+      "no": "CK2026-0035",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-19",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_008",
+      "receiver": "周老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_003",
+          "qty": 9,
+          "price": 3.2
+        },
+        {
+          "itemId": "itm_019",
+          "qty": 2,
+          "price": 7
+        }
+      ],
+      "createdAt": "2026-09-19"
+    },
+    {
+      "id": "doc_0048",
+      "no": "RK2026-0016",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-09-18",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "sup_005",
+      "lines": [
+        {
+          "itemId": "itm_021",
+          "qty": 28,
+          "price": 12.18
+        }
+      ],
+      "createdAt": "2026-09-18"
+    },
+    {
+      "id": "doc_0049",
+      "no": "CK2026-0033",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-18",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_006",
+      "receiver": "周老师",
+      "purpose": "实验课程",
+      "lines": [
+        {
+          "itemId": "itm_007",
+          "qty": 12,
+          "price": 4
+        },
+        {
+          "itemId": "itm_021",
+          "qty": 3,
+          "price": 12
+        },
+        {
+          "itemId": "itm_025",
+          "qty": 9,
+          "price": 39
+        }
+      ],
+      "createdAt": "2026-09-18"
+    },
+    {
+      "id": "doc_0050",
+      "no": "CK2026-0034",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-18",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_001",
+      "receiver": "周老师",
+      "purpose": "考试考务",
+      "lines": [
+        {
+          "itemId": "itm_005",
+          "qty": 2,
+          "price": 18
+        },
+        {
+          "itemId": "itm_019",
+          "qty": 1,
+          "price": 7
+        },
+        {
+          "itemId": "itm_002",
+          "qty": 4,
+          "price": 1.5
+        }
+      ],
+      "createdAt": "2026-09-18"
+    },
+    {
+      "id": "doc_0047",
+      "no": "CK2026-0032",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-09-17",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_006",
+      "receiver": "郑老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_012",
+          "qty": 1,
+          "price": 9
+        },
+        {
+          "itemId": "itm_009",
+          "qty": 5,
+          "price": 0.5
+        }
+      ],
+      "createdAt": "2026-09-17"
+    },
+    {
+      "id": "doc_0045",
+      "no": "RK2026-0015",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-09-14",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "sup_001",
+      "lines": [
+        {
+          "itemId": "itm_007",
+          "qty": 37,
+          "price": 3.76
+        },
+        {
+          "itemId": "itm_011",
+          "qty": 32,
+          "price": 6.14
+        }
+      ],
+      "createdAt": "2026-09-14"
+    },
+    {
+      "id": "doc_0046",
+      "no": "CK2026-0031",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-14",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_003",
+      "receiver": "冯老师",
+      "purpose": "考试考务",
+      "lines": [
+        {
+          "itemId": "itm_015",
+          "qty": 4,
+          "price": 8
+        },
+        {
+          "itemId": "itm_010",
+          "qty": 5,
+          "price": 2
+        },
+        {
+          "itemId": "itm_004",
+          "qty": 9,
+          "price": 0.8
+        }
+      ],
+      "createdAt": "2026-09-14"
+    },
+    {
+      "id": "doc_0044",
+      "no": "CK2026-0030",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-11",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_003",
+      "receiver": "周老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_024",
+          "qty": 8,
+          "price": 28
+        },
+        {
+          "itemId": "itm_018",
+          "qty": 3,
+          "price": 25
+        }
+      ],
+      "createdAt": "2026-09-11"
+    },
+    {
+      "id": "doc_0042",
+      "no": "CK2026-0028",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-10",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_002",
+      "receiver": "周老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_004",
+          "qty": 11,
+          "price": 0.8
+        },
+        {
+          "itemId": "itm_012",
+          "qty": 4,
+          "price": 9
+        },
+        {
+          "itemId": "itm_023",
+          "qty": 1,
+          "price": 45
+        }
+      ],
+      "createdAt": "2026-09-10"
+    },
+    {
+      "id": "doc_0043",
+      "no": "CK2026-0029",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-10",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_001",
+      "receiver": "赵老师",
+      "purpose": "卫生打扫",
+      "lines": [
+        {
+          "itemId": "itm_020",
+          "qty": 1,
+          "price": 5
+        },
+        {
+          "itemId": "itm_008",
+          "qty": 3,
+          "price": 0.6
+        }
+      ],
+      "createdAt": "2026-09-10"
+    },
+    {
+      "id": "doc_0039",
+      "no": "RK2026-0014",
+      "kind": "in",
+      "type": "退回入库",
+      "date": "2026-09-09",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "sup_005",
+      "lines": [
+        {
+          "itemId": "itm_016",
+          "qty": 40,
+          "price": 67.09
+        }
+      ],
+      "createdAt": "2026-09-09"
+    },
+    {
+      "id": "doc_0040",
+      "no": "CK2026-0026",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-09-09",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_006",
+      "receiver": "周老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_008",
+          "qty": 9,
+          "price": 0.6
+        },
+        {
+          "itemId": "itm_003",
+          "qty": 2,
+          "price": 3.2
+        }
+      ],
+      "createdAt": "2026-09-09"
+    },
+    {
+      "id": "doc_0041",
+      "no": "CK2026-0027",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-09-09",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_004",
+      "receiver": "赵老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_007",
+          "qty": 9,
+          "price": 4
+        },
+        {
+          "itemId": "itm_014",
+          "qty": 3,
+          "price": 15
+        }
+      ],
+      "createdAt": "2026-09-09"
+    },
+    {
+      "id": "doc_0038",
+      "no": "CK2026-0025",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-09-08",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_005",
+      "receiver": "孙老师",
+      "purpose": "设备维护",
+      "lines": [
+        {
+          "itemId": "itm_012",
+          "qty": 2,
+          "price": 9
+        },
+        {
+          "itemId": "itm_009",
+          "qty": 3,
+          "price": 0.5
+        },
+        {
+          "itemId": "itm_004",
+          "qty": 11,
+          "price": 0.8
+        }
+      ],
+      "createdAt": "2026-09-08"
+    },
+    {
+      "id": "doc_0037",
+      "no": "RK2026-0013",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-09-07",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "sup_005",
+      "lines": [
+        {
+          "itemId": "itm_024",
+          "qty": 13,
+          "price": 26.87
+        },
+        {
+          "itemId": "itm_007",
+          "qty": 22,
+          "price": 3.92
+        },
+        {
+          "itemId": "itm_016",
+          "qty": 29,
+          "price": 65.56
+        }
+      ],
+      "createdAt": "2026-09-07"
+    },
+    {
+      "id": "doc_0036",
+      "no": "CK2026-0024",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-09-03",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_008",
+      "receiver": "冯老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_021",
+          "qty": 5,
+          "price": 12
+        },
+        {
+          "itemId": "itm_007",
+          "qty": 9,
+          "price": 4
+        },
+        {
+          "itemId": "itm_008",
+          "qty": 6,
+          "price": 0.6
+        }
+      ],
+      "createdAt": "2026-09-03"
+    },
+    {
+      "id": "doc_0035",
+      "no": "CK2026-0023",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-09-02",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_003",
+      "receiver": "冯老师",
+      "purpose": "实验课程",
+      "lines": [
+        {
+          "itemId": "itm_001",
+          "qty": 7,
+          "price": 22
+        },
+        {
+          "itemId": "itm_016",
+          "qty": 9,
+          "price": 68
+        }
+      ],
+      "createdAt": "2026-09-02"
+    },
+    {
+      "id": "doc_0033",
+      "no": "RK2026-0012",
+      "kind": "in",
+      "type": "退回入库",
+      "date": "2026-08-31",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_004",
+      "lines": [
+        {
+          "itemId": "itm_011",
+          "qty": 37,
+          "price": 5.83
+        },
+        {
+          "itemId": "itm_007",
+          "qty": 17,
+          "price": 3.7
+        }
+      ],
+      "createdAt": "2026-08-31"
+    },
+    {
+      "id": "doc_0034",
+      "no": "CK2026-0022",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-31",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_003",
+      "receiver": "冯老师",
+      "purpose": "日常教学",
+      "lines": [
+        {
+          "itemId": "itm_018",
+          "qty": 10,
+          "price": 25
+        }
+      ],
+      "createdAt": "2026-08-31"
+    },
+    {
+      "id": "doc_0032",
+      "no": "CK2026-0021",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-28",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_007",
+      "receiver": "孙老师",
+      "purpose": "设备维护",
+      "lines": [
+        {
+          "itemId": "itm_005",
+          "qty": 5,
+          "price": 18
+        },
+        {
+          "itemId": "itm_023",
+          "qty": 3,
+          "price": 45
+        },
+        {
+          "itemId": "itm_001",
+          "qty": 4,
+          "price": 22
+        }
+      ],
+      "createdAt": "2026-08-28"
+    },
+    {
+      "id": "doc_0030",
+      "no": "CK2026-0019",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-27",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_002",
+      "receiver": "吴老师",
+      "purpose": "设备维护",
+      "lines": [
+        {
+          "itemId": "itm_012",
+          "qty": 7,
+          "price": 9
+        },
+        {
+          "itemId": "itm_025",
+          "qty": 5,
+          "price": 39
+        }
+      ],
+      "createdAt": "2026-08-27"
+    },
+    {
+      "id": "doc_0031",
+      "no": "CK2026-0020",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-27",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_008",
+      "receiver": "郑老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_021",
+          "qty": 12,
+          "price": 12
+        },
+        {
+          "itemId": "itm_020",
+          "qty": 4,
+          "price": 5
+        },
+        {
+          "itemId": "itm_024",
+          "qty": 8,
+          "price": 28
+        }
+      ],
+      "createdAt": "2026-08-27"
+    },
+    {
+      "id": "doc_0028",
+      "no": "RK2026-0011",
+      "kind": "in",
+      "type": "退回入库",
+      "date": "2026-08-26",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "sup_003",
+      "lines": [
+        {
+          "itemId": "itm_015",
+          "qty": 26,
+          "price": 8.13
+        },
+        {
+          "itemId": "itm_017",
+          "qty": 19,
+          "price": 5.8
+        },
+        {
+          "itemId": "itm_002",
+          "qty": 10,
+          "price": 1.51
+        }
+      ],
+      "createdAt": "2026-08-26"
+    },
+    {
+      "id": "doc_0029",
+      "no": "CK2026-0018",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-26",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_003",
+      "receiver": "冯老师",
+      "purpose": "实验课程",
+      "lines": [
+        {
+          "itemId": "itm_018",
+          "qty": 8,
+          "price": 25
+        },
+        {
+          "itemId": "itm_020",
+          "qty": 8,
+          "price": 5
+        }
+      ],
+      "createdAt": "2026-08-26"
+    },
+    {
+      "id": "doc_0026",
+      "no": "RK2026-0010",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-08-25",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_002",
+      "lines": [
+        {
+          "itemId": "itm_004",
+          "qty": 19,
+          "price": 0.74
+        },
+        {
+          "itemId": "itm_015",
+          "qty": 34,
+          "price": 7.48
+        }
+      ],
+      "createdAt": "2026-08-25"
+    },
+    {
+      "id": "doc_0027",
+      "no": "CK2026-0017",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-25",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_006",
+      "receiver": "郑老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_005",
+          "qty": 8,
+          "price": 18
+        },
+        {
+          "itemId": "itm_024",
+          "qty": 3,
+          "price": 28
+        }
+      ],
+      "createdAt": "2026-08-25"
+    },
+    {
+      "id": "doc_0024",
+      "no": "RK2026-0009",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-08-24",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_002",
+      "lines": [
+        {
+          "itemId": "itm_018",
+          "qty": 26,
+          "price": 23.93
+        },
+        {
+          "itemId": "itm_013",
+          "qty": 18,
+          "price": 12.24
+        }
+      ],
+      "createdAt": "2026-08-24"
+    },
+    {
+      "id": "doc_0025",
+      "no": "CK2026-0016",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-08-24",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_001",
+      "receiver": "郑老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_006",
+          "qty": 6,
+          "price": 2.5
+        }
+      ],
+      "createdAt": "2026-08-24"
+    },
+    {
+      "id": "doc_0023",
+      "no": "RK2026-0008",
+      "kind": "in",
+      "type": "调拨入库",
+      "date": "2026-08-21",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "sup_004",
+      "lines": [
+        {
+          "itemId": "itm_005",
+          "qty": 13,
+          "price": 17.59
+        },
+        {
+          "itemId": "itm_001",
+          "qty": 24,
+          "price": 22.73
+        },
+        {
+          "itemId": "itm_024",
+          "qty": 19,
+          "price": 26.55
+        }
+      ],
+      "createdAt": "2026-08-21"
+    },
+    {
+      "id": "doc_0021",
+      "no": "RK2026-0007",
+      "kind": "in",
+      "type": "退回入库",
+      "date": "2026-08-20",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_004",
+      "lines": [
+        {
+          "itemId": "itm_021",
+          "qty": 23,
+          "price": 11.52
+        },
+        {
+          "itemId": "itm_018",
+          "qty": 12,
+          "price": 24.16
+        }
+      ],
+      "createdAt": "2026-08-20"
+    },
+    {
+      "id": "doc_0022",
+      "no": "CK2026-0015",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-20",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_006",
+      "receiver": "冯老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_006",
+          "qty": 9,
+          "price": 2.5
+        },
+        {
+          "itemId": "itm_023",
+          "qty": 6,
+          "price": 45
+        }
+      ],
+      "createdAt": "2026-08-20"
+    },
+    {
+      "id": "doc_0018",
+      "no": "RK2026-0006",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-08-19",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "sup_003",
+      "lines": [
+        {
+          "itemId": "itm_013",
+          "qty": 30,
+          "price": 12.13
+        },
+        {
+          "itemId": "itm_024",
+          "qty": 39,
+          "price": 27.29
+        }
+      ],
+      "createdAt": "2026-08-19"
+    },
+    {
+      "id": "doc_0019",
+      "no": "CK2026-0013",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-08-19",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_006",
+      "receiver": "赵老师",
+      "purpose": "实验课程",
+      "lines": [
+        {
+          "itemId": "itm_015",
+          "qty": 9,
+          "price": 8
+        },
+        {
+          "itemId": "itm_003",
+          "qty": 11,
+          "price": 3.2
+        }
+      ],
+      "createdAt": "2026-08-19"
+    },
+    {
+      "id": "doc_0020",
+      "no": "CK2026-0014",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-08-19",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_005",
+      "receiver": "孙老师",
+      "purpose": "运动会筹备",
+      "lines": [
+        {
+          "itemId": "itm_009",
+          "qty": 7,
+          "price": 0.5
+        }
+      ],
+      "createdAt": "2026-08-19"
+    },
+    {
+      "id": "doc_0016",
+      "no": "CK2026-0011",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-08-18",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_006",
+      "receiver": "周老师",
+      "purpose": "卫生打扫",
+      "lines": [
+        {
+          "itemId": "itm_001",
+          "qty": 6,
+          "price": 22
+        },
+        {
+          "itemId": "itm_014",
+          "qty": 9,
+          "price": 15
+        }
+      ],
+      "createdAt": "2026-08-18"
+    },
+    {
+      "id": "doc_0017",
+      "no": "CK2026-0012",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-18",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_003",
+      "receiver": "吴老师",
+      "purpose": "日常教学",
+      "lines": [
+        {
+          "itemId": "itm_010",
+          "qty": 1,
+          "price": 2
+        },
+        {
+          "itemId": "itm_004",
+          "qty": 1,
+          "price": 0.8
+        },
+        {
+          "itemId": "itm_013",
+          "qty": 2,
+          "price": 12
+        }
+      ],
+      "createdAt": "2026-08-18"
+    },
+    {
+      "id": "doc_0015",
+      "no": "CK2026-0010",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-08-17",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_006",
+      "receiver": "孙老师",
+      "purpose": "卫生打扫",
+      "lines": [
+        {
+          "itemId": "itm_007",
+          "qty": 12,
+          "price": 4
+        }
+      ],
+      "createdAt": "2026-08-17"
+    },
+    {
+      "id": "doc_0014",
+      "no": "CK2026-0009",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-16",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_002",
+      "receiver": "周老师",
+      "purpose": "日常教学",
+      "lines": [
+        {
+          "itemId": "itm_021",
+          "qty": 6,
+          "price": 12
+        }
+      ],
+      "createdAt": "2026-08-16"
+    },
+    {
+      "id": "doc_0012",
+      "no": "CK2026-0007",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-14",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "dep_002",
+      "receiver": "冯老师",
+      "purpose": "设备维护",
+      "lines": [
+        {
+          "itemId": "itm_006",
+          "qty": 11,
+          "price": 2.5
+        }
+      ],
+      "createdAt": "2026-08-14"
+    },
+    {
+      "id": "doc_0013",
+      "no": "CK2026-0008",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-14",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_004",
+      "receiver": "赵老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_009",
+          "qty": 10,
+          "price": 0.5
+        },
+        {
+          "itemId": "itm_011",
+          "qty": 6,
+          "price": 6
+        }
+      ],
+      "createdAt": "2026-08-14"
+    },
+    {
+      "id": "doc_0011",
+      "no": "CK2026-0006",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-13",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_004",
+      "receiver": "冯老师",
+      "purpose": "卫生打扫",
+      "lines": [
+        {
+          "itemId": "itm_002",
+          "qty": 10,
+          "price": 1.5
+        },
+        {
+          "itemId": "itm_018",
+          "qty": 3,
+          "price": 25
+        }
+      ],
+      "createdAt": "2026-08-13"
+    },
+    {
+      "id": "doc_0010",
+      "no": "RK2026-0005",
+      "kind": "in",
+      "type": "调拨入库",
+      "date": "2026-08-10",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "sup_002",
+      "lines": [
+        {
+          "itemId": "itm_010",
+          "qty": 32,
+          "price": 2.06
+        },
+        {
+          "itemId": "itm_006",
+          "qty": 19,
+          "price": 2.45
+        },
+        {
+          "itemId": "itm_015",
+          "qty": 8,
+          "price": 7.92
+        }
+      ],
+      "createdAt": "2026-08-10"
+    },
+    {
+      "id": "doc_0008",
+      "no": "RK2026-0004",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-08-06",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "sup_003",
+      "lines": [
+        {
+          "itemId": "itm_010",
+          "qty": 30,
+          "price": 2.06
+        },
+        {
+          "itemId": "itm_011",
+          "qty": 32,
+          "price": 6.21
+        },
+        {
+          "itemId": "itm_021",
+          "qty": 37,
+          "price": 11.57
+        }
+      ],
+      "createdAt": "2026-08-06"
+    },
+    {
+      "id": "doc_0009",
+      "no": "CK2026-0005",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-06",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_001",
+      "receiver": "吴老师",
+      "purpose": "实验课程",
+      "lines": [
+        {
+          "itemId": "itm_001",
+          "qty": 6,
+          "price": 22
+        }
+      ],
+      "createdAt": "2026-08-06"
+    },
+    {
+      "id": "doc_0006",
+      "no": "CK2026-0003",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-05",
+      "status": "已完成",
+      "operator": "陈老师",
+      "partnerId": "dep_003",
+      "receiver": "孙老师",
+      "purpose": "设备维护",
+      "lines": [
+        {
+          "itemId": "itm_017",
+          "qty": 1,
+          "price": 6
+        },
+        {
+          "itemId": "itm_006",
+          "qty": 11,
+          "price": 2.5
+        },
+        {
+          "itemId": "itm_013",
+          "qty": 1,
+          "price": 12
+        }
+      ],
+      "createdAt": "2026-08-05"
+    },
+    {
+      "id": "doc_0007",
+      "no": "CK2026-0004",
+      "kind": "out",
+      "type": "报废出库",
+      "date": "2026-08-05",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_006",
+      "receiver": "冯老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_002",
+          "qty": 2,
+          "price": 1.5
+        },
+        {
+          "itemId": "itm_024",
+          "qty": 1,
+          "price": 28
+        },
+        {
+          "itemId": "itm_018",
+          "qty": 3,
+          "price": 25
+        }
+      ],
+      "createdAt": "2026-08-05"
+    },
+    {
+      "id": "doc_0004",
+      "no": "RK2026-0003",
+      "kind": "in",
+      "type": "调拨入库",
+      "date": "2026-08-03",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_002",
+      "lines": [
+        {
+          "itemId": "itm_009",
+          "qty": 38,
+          "price": 0.48
+        },
+        {
+          "itemId": "itm_003",
+          "qty": 27,
+          "price": 3.15
+        },
+        {
+          "itemId": "itm_007",
+          "qty": 12,
+          "price": 4
+        }
+      ],
+      "createdAt": "2026-08-03"
+    },
+    {
+      "id": "doc_0005",
+      "no": "CK2026-0002",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-08-03",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "dep_006",
+      "receiver": "冯老师",
+      "purpose": "班级活动",
+      "lines": [
+        {
+          "itemId": "itm_006",
+          "qty": 4,
+          "price": 2.5
+        },
+        {
+          "itemId": "itm_012",
+          "qty": 7,
+          "price": 9
+        },
+        {
+          "itemId": "itm_011",
+          "qty": 2,
+          "price": 6
+        }
+      ],
+      "createdAt": "2026-08-03"
+    },
+    {
+      "id": "doc_0002",
+      "no": "RK2026-0002",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-07-31",
+      "status": "已完成",
+      "operator": "赵老师",
+      "partnerId": "sup_002",
+      "lines": [
+        {
+          "itemId": "itm_025",
+          "qty": 30,
+          "price": 36.33
+        },
+        {
+          "itemId": "itm_020",
+          "qty": 17,
+          "price": 4.98
+        },
+        {
+          "itemId": "itm_021",
+          "qty": 16,
+          "price": 11.76
+        }
+      ],
+      "createdAt": "2026-07-31"
+    },
+    {
+      "id": "doc_0003",
+      "no": "CK2026-0001",
+      "kind": "out",
+      "type": "领用出库",
+      "date": "2026-07-31",
+      "status": "已完成",
+      "operator": "周老师",
+      "partnerId": "dep_008",
+      "receiver": "周老师",
+      "purpose": "考试考务",
+      "lines": [
+        {
+          "itemId": "itm_010",
+          "qty": 10,
+          "price": 2
+        },
+        {
+          "itemId": "itm_006",
+          "qty": 5,
+          "price": 2.5
+        }
+      ],
+      "createdAt": "2026-07-31"
+    },
+    {
+      "id": "doc_0001",
+      "no": "RK2026-0001",
+      "kind": "in",
+      "type": "采购入库",
+      "date": "2026-07-29",
+      "status": "已完成",
+      "operator": "王老师",
+      "partnerId": "sup_001",
+      "note": "新学期开仓建账，一次性备货",
+      "lines": [
+        {
+          "itemId": "itm_001",
+          "qty": 160,
+          "price": 22
+        },
+        {
+          "itemId": "itm_002",
+          "qty": 420,
+          "price": 1.5
+        },
+        {
+          "itemId": "itm_003",
+          "qty": 90,
+          "price": 3.2
+        },
+        {
+          "itemId": "itm_004",
+          "qty": 200,
+          "price": 0.8
+        },
+        {
+          "itemId": "itm_005",
+          "qty": 14,
+          "price": 18
+        },
+        {
+          "itemId": "itm_006",
+          "qty": 110,
+          "price": 2.5
+        },
+        {
+          "itemId": "itm_007",
+          "qty": 80,
+          "price": 4
+        },
+        {
+          "itemId": "itm_008",
+          "qty": 260,
+          "price": 0.6
+        },
+        {
+          "itemId": "itm_009",
+          "qty": 600,
+          "price": 0.5
+        },
+        {
+          "itemId": "itm_010",
+          "qty": 300,
+          "price": 2
+        },
+        {
+          "itemId": "itm_011",
+          "qty": 46,
+          "price": 6
+        },
+        {
+          "itemId": "itm_012",
+          "qty": 30,
+          "price": 9
+        },
+        {
+          "itemId": "itm_013",
+          "qty": 22,
+          "price": 12
+        },
+        {
+          "itemId": "itm_014",
+          "qty": 70,
+          "price": 15
+        },
+        {
+          "itemId": "itm_015",
+          "qty": 36,
+          "price": 8
+        },
+        {
+          "itemId": "itm_016",
+          "qty": 26,
+          "price": 68
+        },
+        {
+          "itemId": "itm_017",
+          "qty": 90,
+          "price": 6
+        },
+        {
+          "itemId": "itm_018",
+          "qty": 24,
+          "price": 25
+        },
+        {
+          "itemId": "itm_019",
+          "qty": 70,
+          "price": 7
+        },
+        {
+          "itemId": "itm_020",
+          "qty": 120,
+          "price": 5
+        },
+        {
+          "itemId": "itm_021",
+          "qty": 56,
+          "price": 12
+        },
+        {
+          "itemId": "itm_022",
+          "qty": 34,
+          "price": 18
+        },
+        {
+          "itemId": "itm_023",
+          "qty": 18,
+          "price": 45
+        },
+        {
+          "itemId": "itm_024",
+          "qty": 22,
+          "price": 28
+        },
+        {
+          "itemId": "itm_025",
+          "qty": 14,
+          "price": 39
+        }
+      ],
+      "createdAt": "2026-07-29"
+    }
+  ],
+  "txns": [
+    {
+      "id": "txn_00225",
+      "date": "2026-10-25",
+      "itemId": "itm_013",
+      "qty": 6,
+      "balanceAfter": 57,
+      "docId": "doc_0101",
+      "docNo": "RK2026-0029",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00224",
+      "date": "2026-10-25",
+      "itemId": "itm_012",
+      "qty": 10,
+      "balanceAfter": 16,
+      "docId": "doc_0101",
+      "docNo": "RK2026-0029",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00223",
+      "date": "2026-10-25",
+      "itemId": "itm_015",
+      "qty": -1,
+      "balanceAfter": 4,
+      "docId": "doc_0100",
+      "docNo": "CK2026-0072",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00222",
+      "date": "2026-10-25",
+      "itemId": "itm_011",
+      "qty": -2,
+      "balanceAfter": 136,
+      "docId": "doc_0100",
+      "docNo": "CK2026-0072",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00217",
+      "date": "2026-10-24",
+      "itemId": "itm_020",
+      "qty": -125,
+      "balanceAfter": 15,
+      "docId": "doc_0095",
+      "docNo": "CK2026-0067",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00218",
+      "date": "2026-10-23",
+      "itemId": "itm_015",
+      "qty": -114,
+      "balanceAfter": 5,
+      "docId": "doc_0096",
+      "docNo": "CK2026-0068",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00216",
+      "date": "2026-10-23",
+      "itemId": "itm_001",
+      "qty": -11,
+      "balanceAfter": 192,
+      "docId": "doc_0094",
+      "docNo": "CK2026-0066",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00215",
+      "date": "2026-10-23",
+      "itemId": "itm_005",
+      "qty": -9,
+      "balanceAfter": 18,
+      "docId": "doc_0094",
+      "docNo": "CK2026-0066",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00214",
+      "date": "2026-10-23",
+      "itemId": "itm_021",
+      "qty": -5,
+      "balanceAfter": 102,
+      "docId": "doc_0094",
+      "docNo": "CK2026-0066",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00213",
+      "date": "2026-10-23",
+      "itemId": "itm_005",
+      "qty": -2,
+      "balanceAfter": 27,
+      "docId": "doc_0093",
+      "docNo": "CK2026-0065",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00212",
+      "date": "2026-10-23",
+      "itemId": "itm_020",
+      "qty": -3,
+      "balanceAfter": 140,
+      "docId": "doc_0093",
+      "docNo": "CK2026-0065",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00219",
+      "date": "2026-10-22",
+      "itemId": "itm_007",
+      "qty": -112,
+      "balanceAfter": 10,
+      "docId": "doc_0097",
+      "docNo": "CK2026-0069",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00211",
+      "date": "2026-10-22",
+      "itemId": "itm_019",
+      "qty": -10,
+      "balanceAfter": 57,
+      "docId": "doc_0092",
+      "docNo": "CK2026-0064",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00210",
+      "date": "2026-10-22",
+      "itemId": "itm_007",
+      "qty": -4,
+      "balanceAfter": 122,
+      "docId": "doc_0091",
+      "docNo": "CK2026-0063",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00209",
+      "date": "2026-10-22",
+      "itemId": "itm_009",
+      "qty": 20,
+      "balanceAfter": 658,
+      "docId": "doc_0090",
+      "docNo": "RK2026-0028",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00220",
+      "date": "2026-10-21",
+      "itemId": "itm_017",
+      "qty": -107,
+      "balanceAfter": 10,
+      "docId": "doc_0098",
+      "docNo": "CK2026-0070",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00208",
+      "date": "2026-10-21",
+      "itemId": "itm_018",
+      "qty": -3,
+      "balanceAfter": 37,
+      "docId": "doc_0089",
+      "docNo": "CK2026-0062",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00207",
+      "date": "2026-10-21",
+      "itemId": "itm_022",
+      "qty": -9,
+      "balanceAfter": 27,
+      "docId": "doc_0089",
+      "docNo": "CK2026-0062",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00221",
+      "date": "2026-10-20",
+      "itemId": "itm_003",
+      "qty": -103,
+      "balanceAfter": 10,
+      "docId": "doc_0099",
+      "docNo": "CK2026-0071",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00206",
+      "date": "2026-10-20",
+      "itemId": "itm_014",
+      "qty": -1,
+      "balanceAfter": 47,
+      "docId": "doc_0088",
+      "docNo": "CK2026-0061",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00205",
+      "date": "2026-10-20",
+      "itemId": "itm_015",
+      "qty": 37,
+      "balanceAfter": 119,
+      "docId": "doc_0087",
+      "docNo": "RK2026-0027",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00204",
+      "date": "2026-10-20",
+      "itemId": "itm_023",
+      "qty": 10,
+      "balanceAfter": 19,
+      "docId": "doc_0087",
+      "docNo": "RK2026-0027",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00203",
+      "date": "2026-10-20",
+      "itemId": "itm_024",
+      "qty": 38,
+      "balanceAfter": 168,
+      "docId": "doc_0087",
+      "docNo": "RK2026-0027",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00202",
+      "date": "2026-10-19",
+      "itemId": "itm_010",
+      "qty": -10,
+      "balanceAfter": 345,
+      "docId": "doc_0086",
+      "docNo": "CK2026-0060",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00201",
+      "date": "2026-10-19",
+      "itemId": "itm_006",
+      "qty": -12,
+      "balanceAfter": 67,
+      "docId": "doc_0086",
+      "docNo": "CK2026-0060",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00200",
+      "date": "2026-10-16",
+      "itemId": "itm_023",
+      "qty": -4,
+      "balanceAfter": 9,
+      "docId": "doc_0085",
+      "docNo": "CK2026-0059",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00199",
+      "date": "2026-10-16",
+      "itemId": "itm_009",
+      "qty": -10,
+      "balanceAfter": 638,
+      "docId": "doc_0085",
+      "docNo": "CK2026-0059",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00198",
+      "date": "2026-10-16",
+      "itemId": "itm_016",
+      "qty": -10,
+      "balanceAfter": 64,
+      "docId": "doc_0085",
+      "docNo": "CK2026-0059",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00197",
+      "date": "2026-10-16",
+      "itemId": "itm_003",
+      "qty": -8,
+      "balanceAfter": 113,
+      "docId": "doc_0084",
+      "docNo": "CK2026-0058",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00196",
+      "date": "2026-10-16",
+      "itemId": "itm_021",
+      "qty": -5,
+      "balanceAfter": 107,
+      "docId": "doc_0084",
+      "docNo": "CK2026-0058",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00195",
+      "date": "2026-10-15",
+      "itemId": "itm_010",
+      "qty": -4,
+      "balanceAfter": 355,
+      "docId": "doc_0083",
+      "docNo": "CK2026-0057",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00194",
+      "date": "2026-10-14",
+      "itemId": "itm_013",
+      "qty": -8,
+      "balanceAfter": 51,
+      "docId": "doc_0082",
+      "docNo": "CK2026-0056",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00193",
+      "date": "2026-10-13",
+      "itemId": "itm_009",
+      "qty": 11,
+      "balanceAfter": 648,
+      "docId": "doc_0081",
+      "docNo": "RK2026-0026",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00192",
+      "date": "2026-10-13",
+      "itemId": "itm_025",
+      "qty": 31,
+      "balanceAfter": 76,
+      "docId": "doc_0081",
+      "docNo": "RK2026-0026",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00191",
+      "date": "2026-10-12",
+      "itemId": "itm_006",
+      "qty": -9,
+      "balanceAfter": 79,
+      "docId": "doc_0080",
+      "docNo": "CK2026-0055",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00190",
+      "date": "2026-10-12",
+      "itemId": "itm_013",
+      "qty": -7,
+      "balanceAfter": 59,
+      "docId": "doc_0079",
+      "docNo": "CK2026-0054",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00189",
+      "date": "2026-10-12",
+      "itemId": "itm_010",
+      "qty": -11,
+      "balanceAfter": 359,
+      "docId": "doc_0079",
+      "docNo": "CK2026-0054",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00188",
+      "date": "2026-10-12",
+      "itemId": "itm_020",
+      "qty": 16,
+      "balanceAfter": 143,
+      "docId": "doc_0078",
+      "docNo": "RK2026-0025",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00187",
+      "date": "2026-10-12",
+      "itemId": "itm_025",
+      "qty": 26,
+      "balanceAfter": 45,
+      "docId": "doc_0078",
+      "docNo": "RK2026-0025",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00186",
+      "date": "2026-10-09",
+      "itemId": "itm_024",
+      "qty": -12,
+      "balanceAfter": 130,
+      "docId": "doc_0077",
+      "docNo": "CK2026-0053",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00185",
+      "date": "2026-10-09",
+      "itemId": "itm_003",
+      "qty": -5,
+      "balanceAfter": 121,
+      "docId": "doc_0077",
+      "docNo": "CK2026-0053",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00184",
+      "date": "2026-10-08",
+      "itemId": "itm_008",
+      "qty": -10,
+      "balanceAfter": 232,
+      "docId": "doc_0076",
+      "docNo": "CK2026-0052",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00183",
+      "date": "2026-10-08",
+      "itemId": "itm_018",
+      "qty": -6,
+      "balanceAfter": 40,
+      "docId": "doc_0075",
+      "docNo": "CK2026-0051",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00182",
+      "date": "2026-10-08",
+      "itemId": "itm_006",
+      "qty": 36,
+      "balanceAfter": 88,
+      "docId": "doc_0074",
+      "docNo": "RK2026-0024",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00181",
+      "date": "2026-10-07",
+      "itemId": "itm_013",
+      "qty": -1,
+      "balanceAfter": 66,
+      "docId": "doc_0073",
+      "docNo": "CK2026-0050",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00180",
+      "date": "2026-10-07",
+      "itemId": "itm_025",
+      "qty": -1,
+      "balanceAfter": 19,
+      "docId": "doc_0073",
+      "docNo": "CK2026-0050",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00179",
+      "date": "2026-10-07",
+      "itemId": "itm_020",
+      "qty": -6,
+      "balanceAfter": 127,
+      "docId": "doc_0073",
+      "docNo": "CK2026-0050",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00178",
+      "date": "2026-10-07",
+      "itemId": "itm_024",
+      "qty": 40,
+      "balanceAfter": 142,
+      "docId": "doc_0072",
+      "docNo": "RK2026-0023",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00177",
+      "date": "2026-10-07",
+      "itemId": "itm_023",
+      "qty": 6,
+      "balanceAfter": 13,
+      "docId": "doc_0072",
+      "docNo": "RK2026-0023",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00176",
+      "date": "2026-10-06",
+      "itemId": "itm_005",
+      "qty": 21,
+      "balanceAfter": 29,
+      "docId": "doc_0071",
+      "docNo": "RK2026-0022",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00175",
+      "date": "2026-10-06",
+      "itemId": "itm_022",
+      "qty": 14,
+      "balanceAfter": 36,
+      "docId": "doc_0071",
+      "docNo": "RK2026-0022",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00227",
+      "date": "2026-10-05",
+      "itemId": "itm_007",
+      "qty": 3,
+      "balanceAfter": 13,
+      "docId": "doc_0105",
+      "docNo": "RK2026-0030",
+      "kind": "in",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00226",
+      "date": "2026-10-05",
+      "itemId": "itm_003",
+      "qty": -2,
+      "balanceAfter": 8,
+      "docId": "doc_0104",
+      "docNo": "CK2026-0075",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00174",
+      "date": "2026-10-02",
+      "itemId": "itm_017",
+      "qty": -2,
+      "balanceAfter": 117,
+      "docId": "doc_0070",
+      "docNo": "CK2026-0049",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00173",
+      "date": "2026-10-02",
+      "itemId": "itm_001",
+      "qty": -9,
+      "balanceAfter": 203,
+      "docId": "doc_0070",
+      "docNo": "CK2026-0049",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00172",
+      "date": "2026-10-02",
+      "itemId": "itm_021",
+      "qty": -11,
+      "balanceAfter": 112,
+      "docId": "doc_0070",
+      "docNo": "CK2026-0049",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00171",
+      "date": "2026-10-01",
+      "itemId": "itm_025",
+      "qty": -9,
+      "balanceAfter": 20,
+      "docId": "doc_0069",
+      "docNo": "CK2026-0048",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00170",
+      "date": "2026-10-01",
+      "itemId": "itm_002",
+      "qty": -7,
+      "balanceAfter": 407,
+      "docId": "doc_0068",
+      "docNo": "CK2026-0047",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00169",
+      "date": "2026-10-01",
+      "itemId": "itm_017",
+      "qty": -1,
+      "balanceAfter": 119,
+      "docId": "doc_0068",
+      "docNo": "CK2026-0047",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00168",
+      "date": "2026-10-01",
+      "itemId": "itm_003",
+      "qty": 39,
+      "balanceAfter": 126,
+      "docId": "doc_0067",
+      "docNo": "RK2026-0021",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00167",
+      "date": "2026-09-30",
+      "itemId": "itm_018",
+      "qty": -1,
+      "balanceAfter": 46,
+      "docId": "doc_0066",
+      "docNo": "CK2026-0046",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00166",
+      "date": "2026-09-30",
+      "itemId": "itm_025",
+      "qty": -1,
+      "balanceAfter": 29,
+      "docId": "doc_0066",
+      "docNo": "CK2026-0046",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00165",
+      "date": "2026-09-30",
+      "itemId": "itm_015",
+      "qty": -4,
+      "balanceAfter": 82,
+      "docId": "doc_0065",
+      "docNo": "CK2026-0045",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00164",
+      "date": "2026-09-30",
+      "itemId": "itm_001",
+      "qty": 37,
+      "balanceAfter": 212,
+      "docId": "doc_0064",
+      "docNo": "RK2026-0020",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00163",
+      "date": "2026-09-29",
+      "itemId": "itm_003",
+      "qty": -4,
+      "balanceAfter": 87,
+      "docId": "doc_0063",
+      "docNo": "CK2026-0044",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00162",
+      "date": "2026-09-29",
+      "itemId": "itm_023",
+      "qty": -1,
+      "balanceAfter": 7,
+      "docId": "doc_0063",
+      "docNo": "CK2026-0044",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00161",
+      "date": "2026-09-29",
+      "itemId": "itm_004",
+      "qty": -8,
+      "balanceAfter": 177,
+      "docId": "doc_0063",
+      "docNo": "CK2026-0044",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00160",
+      "date": "2026-09-29",
+      "itemId": "itm_014",
+      "qty": -10,
+      "balanceAfter": 48,
+      "docId": "doc_0062",
+      "docNo": "CK2026-0043",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00159",
+      "date": "2026-09-29",
+      "itemId": "itm_005",
+      "qty": -1,
+      "balanceAfter": 8,
+      "docId": "doc_0062",
+      "docNo": "CK2026-0043",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00158",
+      "date": "2026-09-29",
+      "itemId": "itm_012",
+      "qty": -1,
+      "balanceAfter": 6,
+      "docId": "doc_0062",
+      "docNo": "CK2026-0043",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00157",
+      "date": "2026-09-29",
+      "itemId": "itm_020",
+      "qty": 9,
+      "balanceAfter": 133,
+      "docId": "doc_0061",
+      "docNo": "RK2026-0019",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00156",
+      "date": "2026-09-29",
+      "itemId": "itm_017",
+      "qty": 12,
+      "balanceAfter": 120,
+      "docId": "doc_0061",
+      "docNo": "RK2026-0019",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00155",
+      "date": "2026-09-29",
+      "itemId": "itm_009",
+      "qty": 24,
+      "balanceAfter": 637,
+      "docId": "doc_0061",
+      "docNo": "RK2026-0019",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00154",
+      "date": "2026-09-27",
+      "itemId": "itm_006",
+      "qty": -12,
+      "balanceAfter": 52,
+      "docId": "doc_0060",
+      "docNo": "CK2026-0042",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00153",
+      "date": "2026-09-27",
+      "itemId": "itm_018",
+      "qty": -12,
+      "balanceAfter": 47,
+      "docId": "doc_0060",
+      "docNo": "CK2026-0042",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00152",
+      "date": "2026-09-25",
+      "itemId": "itm_003",
+      "qty": -4,
+      "balanceAfter": 91,
+      "docId": "doc_0059",
+      "docNo": "CK2026-0041",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00151",
+      "date": "2026-09-25",
+      "itemId": "itm_021",
+      "qty": -8,
+      "balanceAfter": 123,
+      "docId": "doc_0058",
+      "docNo": "CK2026-0040",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00150",
+      "date": "2026-09-25",
+      "itemId": "itm_006",
+      "qty": -10,
+      "balanceAfter": 64,
+      "docId": "doc_0058",
+      "docNo": "CK2026-0040",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00149",
+      "date": "2026-09-25",
+      "itemId": "itm_010",
+      "qty": 24,
+      "balanceAfter": 370,
+      "docId": "doc_0057",
+      "docNo": "RK2026-0018",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00148",
+      "date": "2026-09-25",
+      "itemId": "itm_018",
+      "qty": 24,
+      "balanceAfter": 59,
+      "docId": "doc_0057",
+      "docNo": "RK2026-0018",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00147",
+      "date": "2026-09-24",
+      "itemId": "itm_024",
+      "qty": 29,
+      "balanceAfter": 102,
+      "docId": "doc_0056",
+      "docNo": "RK2026-0017",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00146",
+      "date": "2026-09-24",
+      "itemId": "itm_001",
+      "qty": 14,
+      "balanceAfter": 175,
+      "docId": "doc_0056",
+      "docNo": "RK2026-0017",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00145",
+      "date": "2026-09-23",
+      "itemId": "itm_021",
+      "qty": -3,
+      "balanceAfter": 131,
+      "docId": "doc_0055",
+      "docNo": "CK2026-0039",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00144",
+      "date": "2026-09-23",
+      "itemId": "itm_022",
+      "qty": -11,
+      "balanceAfter": 22,
+      "docId": "doc_0055",
+      "docNo": "CK2026-0039",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00143",
+      "date": "2026-09-23",
+      "itemId": "itm_011",
+      "qty": -1,
+      "balanceAfter": 138,
+      "docId": "doc_0055",
+      "docNo": "CK2026-0039",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00142",
+      "date": "2026-09-23",
+      "itemId": "itm_015",
+      "qty": -5,
+      "balanceAfter": 86,
+      "docId": "doc_0054",
+      "docNo": "CK2026-0038",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00141",
+      "date": "2026-09-21",
+      "itemId": "itm_006",
+      "qty": -9,
+      "balanceAfter": 74,
+      "docId": "doc_0053",
+      "docNo": "CK2026-0037",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00140",
+      "date": "2026-09-21",
+      "itemId": "itm_005",
+      "qty": -3,
+      "balanceAfter": 9,
+      "docId": "doc_0053",
+      "docNo": "CK2026-0037",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00139",
+      "date": "2026-09-21",
+      "itemId": "itm_022",
+      "qty": -1,
+      "balanceAfter": 33,
+      "docId": "doc_0053",
+      "docNo": "CK2026-0037",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00138",
+      "date": "2026-09-21",
+      "itemId": "itm_016",
+      "qty": -12,
+      "balanceAfter": 74,
+      "docId": "doc_0052",
+      "docNo": "CK2026-0036",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00137",
+      "date": "2026-09-21",
+      "itemId": "itm_004",
+      "qty": -2,
+      "balanceAfter": 185,
+      "docId": "doc_0052",
+      "docNo": "CK2026-0036",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00136",
+      "date": "2026-09-21",
+      "itemId": "itm_012",
+      "qty": -2,
+      "balanceAfter": 7,
+      "docId": "doc_0052",
+      "docNo": "CK2026-0036",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00135",
+      "date": "2026-09-19",
+      "itemId": "itm_019",
+      "qty": -2,
+      "balanceAfter": 67,
+      "docId": "doc_0051",
+      "docNo": "CK2026-0035",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00134",
+      "date": "2026-09-19",
+      "itemId": "itm_003",
+      "qty": -9,
+      "balanceAfter": 95,
+      "docId": "doc_0051",
+      "docNo": "CK2026-0035",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00133",
+      "date": "2026-09-18",
+      "itemId": "itm_002",
+      "qty": -4,
+      "balanceAfter": 414,
+      "docId": "doc_0050",
+      "docNo": "CK2026-0034",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00132",
+      "date": "2026-09-18",
+      "itemId": "itm_019",
+      "qty": -1,
+      "balanceAfter": 69,
+      "docId": "doc_0050",
+      "docNo": "CK2026-0034",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00131",
+      "date": "2026-09-18",
+      "itemId": "itm_005",
+      "qty": -2,
+      "balanceAfter": 12,
+      "docId": "doc_0050",
+      "docNo": "CK2026-0034",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00130",
+      "date": "2026-09-18",
+      "itemId": "itm_025",
+      "qty": -9,
+      "balanceAfter": 30,
+      "docId": "doc_0049",
+      "docNo": "CK2026-0033",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00129",
+      "date": "2026-09-18",
+      "itemId": "itm_021",
+      "qty": -3,
+      "balanceAfter": 134,
+      "docId": "doc_0049",
+      "docNo": "CK2026-0033",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00128",
+      "date": "2026-09-18",
+      "itemId": "itm_007",
+      "qty": -12,
+      "balanceAfter": 126,
+      "docId": "doc_0049",
+      "docNo": "CK2026-0033",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00127",
+      "date": "2026-09-18",
+      "itemId": "itm_021",
+      "qty": 28,
+      "balanceAfter": 137,
+      "docId": "doc_0048",
+      "docNo": "RK2026-0016",
+      "kind": "in",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00126",
+      "date": "2026-09-17",
+      "itemId": "itm_009",
+      "qty": -5,
+      "balanceAfter": 613,
+      "docId": "doc_0047",
+      "docNo": "CK2026-0032",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00125",
+      "date": "2026-09-17",
+      "itemId": "itm_012",
+      "qty": -1,
+      "balanceAfter": 9,
+      "docId": "doc_0047",
+      "docNo": "CK2026-0032",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00124",
+      "date": "2026-09-14",
+      "itemId": "itm_004",
+      "qty": -9,
+      "balanceAfter": 187,
+      "docId": "doc_0046",
+      "docNo": "CK2026-0031",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00123",
+      "date": "2026-09-14",
+      "itemId": "itm_010",
+      "qty": -5,
+      "balanceAfter": 346,
+      "docId": "doc_0046",
+      "docNo": "CK2026-0031",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00122",
+      "date": "2026-09-14",
+      "itemId": "itm_015",
+      "qty": -4,
+      "balanceAfter": 91,
+      "docId": "doc_0046",
+      "docNo": "CK2026-0031",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00121",
+      "date": "2026-09-14",
+      "itemId": "itm_011",
+      "qty": 32,
+      "balanceAfter": 139,
+      "docId": "doc_0045",
+      "docNo": "RK2026-0015",
+      "kind": "in",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00120",
+      "date": "2026-09-14",
+      "itemId": "itm_007",
+      "qty": 37,
+      "balanceAfter": 138,
+      "docId": "doc_0045",
+      "docNo": "RK2026-0015",
+      "kind": "in",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00119",
+      "date": "2026-09-11",
+      "itemId": "itm_018",
+      "qty": -3,
+      "balanceAfter": 35,
+      "docId": "doc_0044",
+      "docNo": "CK2026-0030",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00118",
+      "date": "2026-09-11",
+      "itemId": "itm_024",
+      "qty": -8,
+      "balanceAfter": 73,
+      "docId": "doc_0044",
+      "docNo": "CK2026-0030",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00117",
+      "date": "2026-09-10",
+      "itemId": "itm_008",
+      "qty": -3,
+      "balanceAfter": 242,
+      "docId": "doc_0043",
+      "docNo": "CK2026-0029",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00116",
+      "date": "2026-09-10",
+      "itemId": "itm_020",
+      "qty": -1,
+      "balanceAfter": 124,
+      "docId": "doc_0043",
+      "docNo": "CK2026-0029",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00115",
+      "date": "2026-09-10",
+      "itemId": "itm_023",
+      "qty": -1,
+      "balanceAfter": 8,
+      "docId": "doc_0042",
+      "docNo": "CK2026-0028",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00114",
+      "date": "2026-09-10",
+      "itemId": "itm_012",
+      "qty": -4,
+      "balanceAfter": 10,
+      "docId": "doc_0042",
+      "docNo": "CK2026-0028",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00113",
+      "date": "2026-09-10",
+      "itemId": "itm_004",
+      "qty": -11,
+      "balanceAfter": 196,
+      "docId": "doc_0042",
+      "docNo": "CK2026-0028",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00112",
+      "date": "2026-09-09",
+      "itemId": "itm_014",
+      "qty": -3,
+      "balanceAfter": 58,
+      "docId": "doc_0041",
+      "docNo": "CK2026-0027",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00111",
+      "date": "2026-09-09",
+      "itemId": "itm_007",
+      "qty": -9,
+      "balanceAfter": 101,
+      "docId": "doc_0041",
+      "docNo": "CK2026-0027",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00110",
+      "date": "2026-09-09",
+      "itemId": "itm_003",
+      "qty": -2,
+      "balanceAfter": 104,
+      "docId": "doc_0040",
+      "docNo": "CK2026-0026",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00109",
+      "date": "2026-09-09",
+      "itemId": "itm_008",
+      "qty": -9,
+      "balanceAfter": 245,
+      "docId": "doc_0040",
+      "docNo": "CK2026-0026",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00108",
+      "date": "2026-09-09",
+      "itemId": "itm_016",
+      "qty": 40,
+      "balanceAfter": 86,
+      "docId": "doc_0039",
+      "docNo": "RK2026-0014",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00107",
+      "date": "2026-09-08",
+      "itemId": "itm_004",
+      "qty": -11,
+      "balanceAfter": 207,
+      "docId": "doc_0038",
+      "docNo": "CK2026-0025",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00106",
+      "date": "2026-09-08",
+      "itemId": "itm_009",
+      "qty": -3,
+      "balanceAfter": 618,
+      "docId": "doc_0038",
+      "docNo": "CK2026-0025",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00105",
+      "date": "2026-09-08",
+      "itemId": "itm_012",
+      "qty": -2,
+      "balanceAfter": 14,
+      "docId": "doc_0038",
+      "docNo": "CK2026-0025",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00104",
+      "date": "2026-09-07",
+      "itemId": "itm_016",
+      "qty": 29,
+      "balanceAfter": 46,
+      "docId": "doc_0037",
+      "docNo": "RK2026-0013",
+      "kind": "in",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00103",
+      "date": "2026-09-07",
+      "itemId": "itm_007",
+      "qty": 22,
+      "balanceAfter": 110,
+      "docId": "doc_0037",
+      "docNo": "RK2026-0013",
+      "kind": "in",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00102",
+      "date": "2026-09-07",
+      "itemId": "itm_024",
+      "qty": 13,
+      "balanceAfter": 81,
+      "docId": "doc_0037",
+      "docNo": "RK2026-0013",
+      "kind": "in",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00101",
+      "date": "2026-09-03",
+      "itemId": "itm_008",
+      "qty": -6,
+      "balanceAfter": 254,
+      "docId": "doc_0036",
+      "docNo": "CK2026-0024",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00100",
+      "date": "2026-09-03",
+      "itemId": "itm_007",
+      "qty": -9,
+      "balanceAfter": 88,
+      "docId": "doc_0036",
+      "docNo": "CK2026-0024",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00099",
+      "date": "2026-09-03",
+      "itemId": "itm_021",
+      "qty": -5,
+      "balanceAfter": 109,
+      "docId": "doc_0036",
+      "docNo": "CK2026-0024",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00098",
+      "date": "2026-09-02",
+      "itemId": "itm_016",
+      "qty": -9,
+      "balanceAfter": 17,
+      "docId": "doc_0035",
+      "docNo": "CK2026-0023",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00097",
+      "date": "2026-09-02",
+      "itemId": "itm_001",
+      "qty": -7,
+      "balanceAfter": 161,
+      "docId": "doc_0035",
+      "docNo": "CK2026-0023",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00096",
+      "date": "2026-08-31",
+      "itemId": "itm_018",
+      "qty": -10,
+      "balanceAfter": 38,
+      "docId": "doc_0034",
+      "docNo": "CK2026-0022",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00095",
+      "date": "2026-08-31",
+      "itemId": "itm_007",
+      "qty": 17,
+      "balanceAfter": 97,
+      "docId": "doc_0033",
+      "docNo": "RK2026-0012",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00094",
+      "date": "2026-08-31",
+      "itemId": "itm_011",
+      "qty": 37,
+      "balanceAfter": 107,
+      "docId": "doc_0033",
+      "docNo": "RK2026-0012",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00093",
+      "date": "2026-08-28",
+      "itemId": "itm_001",
+      "qty": -4,
+      "balanceAfter": 168,
+      "docId": "doc_0032",
+      "docNo": "CK2026-0021",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00092",
+      "date": "2026-08-28",
+      "itemId": "itm_023",
+      "qty": -3,
+      "balanceAfter": 9,
+      "docId": "doc_0032",
+      "docNo": "CK2026-0021",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00091",
+      "date": "2026-08-28",
+      "itemId": "itm_005",
+      "qty": -5,
+      "balanceAfter": 14,
+      "docId": "doc_0032",
+      "docNo": "CK2026-0021",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00090",
+      "date": "2026-08-27",
+      "itemId": "itm_024",
+      "qty": -8,
+      "balanceAfter": 68,
+      "docId": "doc_0031",
+      "docNo": "CK2026-0020",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00089",
+      "date": "2026-08-27",
+      "itemId": "itm_020",
+      "qty": -4,
+      "balanceAfter": 125,
+      "docId": "doc_0031",
+      "docNo": "CK2026-0020",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00088",
+      "date": "2026-08-27",
+      "itemId": "itm_021",
+      "qty": -12,
+      "balanceAfter": 114,
+      "docId": "doc_0031",
+      "docNo": "CK2026-0020",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00087",
+      "date": "2026-08-27",
+      "itemId": "itm_025",
+      "qty": -5,
+      "balanceAfter": 39,
+      "docId": "doc_0030",
+      "docNo": "CK2026-0019",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00086",
+      "date": "2026-08-27",
+      "itemId": "itm_012",
+      "qty": -7,
+      "balanceAfter": 16,
+      "docId": "doc_0030",
+      "docNo": "CK2026-0019",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00085",
+      "date": "2026-08-26",
+      "itemId": "itm_020",
+      "qty": -8,
+      "balanceAfter": 129,
+      "docId": "doc_0029",
+      "docNo": "CK2026-0018",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00084",
+      "date": "2026-08-26",
+      "itemId": "itm_018",
+      "qty": -8,
+      "balanceAfter": 48,
+      "docId": "doc_0029",
+      "docNo": "CK2026-0018",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00083",
+      "date": "2026-08-26",
+      "itemId": "itm_002",
+      "qty": 10,
+      "balanceAfter": 418,
+      "docId": "doc_0028",
+      "docNo": "RK2026-0011",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00082",
+      "date": "2026-08-26",
+      "itemId": "itm_017",
+      "qty": 19,
+      "balanceAfter": 108,
+      "docId": "doc_0028",
+      "docNo": "RK2026-0011",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00081",
+      "date": "2026-08-26",
+      "itemId": "itm_015",
+      "qty": 26,
+      "balanceAfter": 95,
+      "docId": "doc_0028",
+      "docNo": "RK2026-0011",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00080",
+      "date": "2026-08-25",
+      "itemId": "itm_024",
+      "qty": -3,
+      "balanceAfter": 76,
+      "docId": "doc_0027",
+      "docNo": "CK2026-0017",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00079",
+      "date": "2026-08-25",
+      "itemId": "itm_005",
+      "qty": -8,
+      "balanceAfter": 19,
+      "docId": "doc_0027",
+      "docNo": "CK2026-0017",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00078",
+      "date": "2026-08-25",
+      "itemId": "itm_015",
+      "qty": 34,
+      "balanceAfter": 69,
+      "docId": "doc_0026",
+      "docNo": "RK2026-0010",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00077",
+      "date": "2026-08-25",
+      "itemId": "itm_004",
+      "qty": 19,
+      "balanceAfter": 218,
+      "docId": "doc_0026",
+      "docNo": "RK2026-0010",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00076",
+      "date": "2026-08-24",
+      "itemId": "itm_006",
+      "qty": -6,
+      "balanceAfter": 83,
+      "docId": "doc_0025",
+      "docNo": "CK2026-0016",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00075",
+      "date": "2026-08-24",
+      "itemId": "itm_013",
+      "qty": 18,
+      "balanceAfter": 67,
+      "docId": "doc_0024",
+      "docNo": "RK2026-0009",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00074",
+      "date": "2026-08-24",
+      "itemId": "itm_018",
+      "qty": 26,
+      "balanceAfter": 56,
+      "docId": "doc_0024",
+      "docNo": "RK2026-0009",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00073",
+      "date": "2026-08-21",
+      "itemId": "itm_024",
+      "qty": 19,
+      "balanceAfter": 79,
+      "docId": "doc_0023",
+      "docNo": "RK2026-0008",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00072",
+      "date": "2026-08-21",
+      "itemId": "itm_001",
+      "qty": 24,
+      "balanceAfter": 172,
+      "docId": "doc_0023",
+      "docNo": "RK2026-0008",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00071",
+      "date": "2026-08-21",
+      "itemId": "itm_005",
+      "qty": 13,
+      "balanceAfter": 27,
+      "docId": "doc_0023",
+      "docNo": "RK2026-0008",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00070",
+      "date": "2026-08-20",
+      "itemId": "itm_023",
+      "qty": -6,
+      "balanceAfter": 12,
+      "docId": "doc_0022",
+      "docNo": "CK2026-0015",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00069",
+      "date": "2026-08-20",
+      "itemId": "itm_006",
+      "qty": -9,
+      "balanceAfter": 89,
+      "docId": "doc_0022",
+      "docNo": "CK2026-0015",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00068",
+      "date": "2026-08-20",
+      "itemId": "itm_018",
+      "qty": 12,
+      "balanceAfter": 30,
+      "docId": "doc_0021",
+      "docNo": "RK2026-0007",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00067",
+      "date": "2026-08-20",
+      "itemId": "itm_021",
+      "qty": 23,
+      "balanceAfter": 126,
+      "docId": "doc_0021",
+      "docNo": "RK2026-0007",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00066",
+      "date": "2026-08-19",
+      "itemId": "itm_009",
+      "qty": -7,
+      "balanceAfter": 621,
+      "docId": "doc_0020",
+      "docNo": "CK2026-0014",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00065",
+      "date": "2026-08-19",
+      "itemId": "itm_003",
+      "qty": -11,
+      "balanceAfter": 106,
+      "docId": "doc_0019",
+      "docNo": "CK2026-0013",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00064",
+      "date": "2026-08-19",
+      "itemId": "itm_015",
+      "qty": -9,
+      "balanceAfter": 35,
+      "docId": "doc_0019",
+      "docNo": "CK2026-0013",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00063",
+      "date": "2026-08-19",
+      "itemId": "itm_024",
+      "qty": 39,
+      "balanceAfter": 60,
+      "docId": "doc_0018",
+      "docNo": "RK2026-0006",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00062",
+      "date": "2026-08-19",
+      "itemId": "itm_013",
+      "qty": 30,
+      "balanceAfter": 49,
+      "docId": "doc_0018",
+      "docNo": "RK2026-0006",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00061",
+      "date": "2026-08-18",
+      "itemId": "itm_013",
+      "qty": -2,
+      "balanceAfter": 19,
+      "docId": "doc_0017",
+      "docNo": "CK2026-0012",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00060",
+      "date": "2026-08-18",
+      "itemId": "itm_004",
+      "qty": -1,
+      "balanceAfter": 199,
+      "docId": "doc_0017",
+      "docNo": "CK2026-0012",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00059",
+      "date": "2026-08-18",
+      "itemId": "itm_010",
+      "qty": -1,
+      "balanceAfter": 351,
+      "docId": "doc_0017",
+      "docNo": "CK2026-0012",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00058",
+      "date": "2026-08-18",
+      "itemId": "itm_014",
+      "qty": -9,
+      "balanceAfter": 61,
+      "docId": "doc_0016",
+      "docNo": "CK2026-0011",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00057",
+      "date": "2026-08-18",
+      "itemId": "itm_001",
+      "qty": -6,
+      "balanceAfter": 148,
+      "docId": "doc_0016",
+      "docNo": "CK2026-0011",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00056",
+      "date": "2026-08-17",
+      "itemId": "itm_007",
+      "qty": -12,
+      "balanceAfter": 80,
+      "docId": "doc_0015",
+      "docNo": "CK2026-0010",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00055",
+      "date": "2026-08-16",
+      "itemId": "itm_021",
+      "qty": -6,
+      "balanceAfter": 103,
+      "docId": "doc_0014",
+      "docNo": "CK2026-0009",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00054",
+      "date": "2026-08-14",
+      "itemId": "itm_011",
+      "qty": -6,
+      "balanceAfter": 70,
+      "docId": "doc_0013",
+      "docNo": "CK2026-0008",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00053",
+      "date": "2026-08-14",
+      "itemId": "itm_009",
+      "qty": -10,
+      "balanceAfter": 628,
+      "docId": "doc_0013",
+      "docNo": "CK2026-0008",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00052",
+      "date": "2026-08-14",
+      "itemId": "itm_006",
+      "qty": -11,
+      "balanceAfter": 98,
+      "docId": "doc_0012",
+      "docNo": "CK2026-0007",
+      "kind": "out",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00051",
+      "date": "2026-08-13",
+      "itemId": "itm_018",
+      "qty": -3,
+      "balanceAfter": 18,
+      "docId": "doc_0011",
+      "docNo": "CK2026-0006",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00050",
+      "date": "2026-08-13",
+      "itemId": "itm_002",
+      "qty": -10,
+      "balanceAfter": 408,
+      "docId": "doc_0011",
+      "docNo": "CK2026-0006",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00049",
+      "date": "2026-08-10",
+      "itemId": "itm_015",
+      "qty": 8,
+      "balanceAfter": 44,
+      "docId": "doc_0010",
+      "docNo": "RK2026-0005",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00048",
+      "date": "2026-08-10",
+      "itemId": "itm_006",
+      "qty": 19,
+      "balanceAfter": 109,
+      "docId": "doc_0010",
+      "docNo": "RK2026-0005",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00047",
+      "date": "2026-08-10",
+      "itemId": "itm_010",
+      "qty": 32,
+      "balanceAfter": 352,
+      "docId": "doc_0010",
+      "docNo": "RK2026-0005",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00046",
+      "date": "2026-08-06",
+      "itemId": "itm_001",
+      "qty": -6,
+      "balanceAfter": 154,
+      "docId": "doc_0009",
+      "docNo": "CK2026-0005",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00045",
+      "date": "2026-08-06",
+      "itemId": "itm_021",
+      "qty": 37,
+      "balanceAfter": 109,
+      "docId": "doc_0008",
+      "docNo": "RK2026-0004",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00044",
+      "date": "2026-08-06",
+      "itemId": "itm_011",
+      "qty": 32,
+      "balanceAfter": 76,
+      "docId": "doc_0008",
+      "docNo": "RK2026-0004",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00043",
+      "date": "2026-08-06",
+      "itemId": "itm_010",
+      "qty": 30,
+      "balanceAfter": 320,
+      "docId": "doc_0008",
+      "docNo": "RK2026-0004",
+      "kind": "in",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00042",
+      "date": "2026-08-05",
+      "itemId": "itm_018",
+      "qty": -3,
+      "balanceAfter": 21,
+      "docId": "doc_0007",
+      "docNo": "CK2026-0004",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00041",
+      "date": "2026-08-05",
+      "itemId": "itm_024",
+      "qty": -1,
+      "balanceAfter": 21,
+      "docId": "doc_0007",
+      "docNo": "CK2026-0004",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00040",
+      "date": "2026-08-05",
+      "itemId": "itm_002",
+      "qty": -2,
+      "balanceAfter": 418,
+      "docId": "doc_0007",
+      "docNo": "CK2026-0004",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00039",
+      "date": "2026-08-05",
+      "itemId": "itm_013",
+      "qty": -1,
+      "balanceAfter": 21,
+      "docId": "doc_0006",
+      "docNo": "CK2026-0003",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00038",
+      "date": "2026-08-05",
+      "itemId": "itm_006",
+      "qty": -11,
+      "balanceAfter": 90,
+      "docId": "doc_0006",
+      "docNo": "CK2026-0003",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00037",
+      "date": "2026-08-05",
+      "itemId": "itm_017",
+      "qty": -1,
+      "balanceAfter": 89,
+      "docId": "doc_0006",
+      "docNo": "CK2026-0003",
+      "kind": "out",
+      "operator": "陈老师"
+    },
+    {
+      "id": "txn_00036",
+      "date": "2026-08-03",
+      "itemId": "itm_011",
+      "qty": -2,
+      "balanceAfter": 44,
+      "docId": "doc_0005",
+      "docNo": "CK2026-0002",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00035",
+      "date": "2026-08-03",
+      "itemId": "itm_012",
+      "qty": -7,
+      "balanceAfter": 23,
+      "docId": "doc_0005",
+      "docNo": "CK2026-0002",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00034",
+      "date": "2026-08-03",
+      "itemId": "itm_006",
+      "qty": -4,
+      "balanceAfter": 101,
+      "docId": "doc_0005",
+      "docNo": "CK2026-0002",
+      "kind": "out",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00033",
+      "date": "2026-08-03",
+      "itemId": "itm_007",
+      "qty": 12,
+      "balanceAfter": 92,
+      "docId": "doc_0004",
+      "docNo": "RK2026-0003",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00032",
+      "date": "2026-08-03",
+      "itemId": "itm_003",
+      "qty": 27,
+      "balanceAfter": 117,
+      "docId": "doc_0004",
+      "docNo": "RK2026-0003",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00031",
+      "date": "2026-08-03",
+      "itemId": "itm_009",
+      "qty": 38,
+      "balanceAfter": 638,
+      "docId": "doc_0004",
+      "docNo": "RK2026-0003",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00030",
+      "date": "2026-07-31",
+      "itemId": "itm_006",
+      "qty": -5,
+      "balanceAfter": 105,
+      "docId": "doc_0003",
+      "docNo": "CK2026-0001",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00029",
+      "date": "2026-07-31",
+      "itemId": "itm_010",
+      "qty": -10,
+      "balanceAfter": 290,
+      "docId": "doc_0003",
+      "docNo": "CK2026-0001",
+      "kind": "out",
+      "operator": "周老师"
+    },
+    {
+      "id": "txn_00028",
+      "date": "2026-07-31",
+      "itemId": "itm_021",
+      "qty": 16,
+      "balanceAfter": 72,
+      "docId": "doc_0002",
+      "docNo": "RK2026-0002",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00027",
+      "date": "2026-07-31",
+      "itemId": "itm_020",
+      "qty": 17,
+      "balanceAfter": 137,
+      "docId": "doc_0002",
+      "docNo": "RK2026-0002",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00026",
+      "date": "2026-07-31",
+      "itemId": "itm_025",
+      "qty": 30,
+      "balanceAfter": 44,
+      "docId": "doc_0002",
+      "docNo": "RK2026-0002",
+      "kind": "in",
+      "operator": "赵老师"
+    },
+    {
+      "id": "txn_00025",
+      "date": "2026-07-29",
+      "itemId": "itm_025",
+      "qty": 14,
+      "balanceAfter": 14,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00024",
+      "date": "2026-07-29",
+      "itemId": "itm_024",
+      "qty": 22,
+      "balanceAfter": 22,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00023",
+      "date": "2026-07-29",
+      "itemId": "itm_023",
+      "qty": 18,
+      "balanceAfter": 18,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00022",
+      "date": "2026-07-29",
+      "itemId": "itm_022",
+      "qty": 34,
+      "balanceAfter": 34,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00021",
+      "date": "2026-07-29",
+      "itemId": "itm_021",
+      "qty": 56,
+      "balanceAfter": 56,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00020",
+      "date": "2026-07-29",
+      "itemId": "itm_020",
+      "qty": 120,
+      "balanceAfter": 120,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00019",
+      "date": "2026-07-29",
+      "itemId": "itm_019",
+      "qty": 70,
+      "balanceAfter": 70,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00018",
+      "date": "2026-07-29",
+      "itemId": "itm_018",
+      "qty": 24,
+      "balanceAfter": 24,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00017",
+      "date": "2026-07-29",
+      "itemId": "itm_017",
+      "qty": 90,
+      "balanceAfter": 90,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00016",
+      "date": "2026-07-29",
+      "itemId": "itm_016",
+      "qty": 26,
+      "balanceAfter": 26,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00015",
+      "date": "2026-07-29",
+      "itemId": "itm_015",
+      "qty": 36,
+      "balanceAfter": 36,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00014",
+      "date": "2026-07-29",
+      "itemId": "itm_014",
+      "qty": 70,
+      "balanceAfter": 70,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00013",
+      "date": "2026-07-29",
+      "itemId": "itm_013",
+      "qty": 22,
+      "balanceAfter": 22,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00012",
+      "date": "2026-07-29",
+      "itemId": "itm_012",
+      "qty": 30,
+      "balanceAfter": 30,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00011",
+      "date": "2026-07-29",
+      "itemId": "itm_011",
+      "qty": 46,
+      "balanceAfter": 46,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00010",
+      "date": "2026-07-29",
+      "itemId": "itm_010",
+      "qty": 300,
+      "balanceAfter": 300,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00009",
+      "date": "2026-07-29",
+      "itemId": "itm_009",
+      "qty": 600,
+      "balanceAfter": 600,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00008",
+      "date": "2026-07-29",
+      "itemId": "itm_008",
+      "qty": 260,
+      "balanceAfter": 260,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00007",
+      "date": "2026-07-29",
+      "itemId": "itm_007",
+      "qty": 80,
+      "balanceAfter": 80,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00006",
+      "date": "2026-07-29",
+      "itemId": "itm_006",
+      "qty": 110,
+      "balanceAfter": 110,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00005",
+      "date": "2026-07-29",
+      "itemId": "itm_005",
+      "qty": 14,
+      "balanceAfter": 14,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00004",
+      "date": "2026-07-29",
+      "itemId": "itm_004",
+      "qty": 200,
+      "balanceAfter": 200,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00003",
+      "date": "2026-07-29",
+      "itemId": "itm_003",
+      "qty": 90,
+      "balanceAfter": 90,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00002",
+      "date": "2026-07-29",
+      "itemId": "itm_002",
+      "qty": 420,
+      "balanceAfter": 420,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    },
+    {
+      "id": "txn_00001",
+      "date": "2026-07-29",
+      "itemId": "itm_001",
+      "qty": 160,
+      "balanceAfter": 160,
+      "docId": "doc_0001",
+      "docNo": "RK2026-0001",
+      "kind": "in",
+      "operator": "王老师"
+    }
+  ],
+  "stocktakes": [
+    {
+      "id": "st_002",
+      "no": "PD2026-0002",
+      "date": "2026-10-25",
+      "status": "进行中",
+      "operator": "王老师",
+      "note": "办公用品专项盘点",
+      "lines": [
+        {
+          "itemId": "itm_001",
+          "bookQty": 192,
+          "actualQty": 192
+        },
+        {
+          "itemId": "itm_002",
+          "bookQty": 407,
+          "actualQty": 407
+        },
+        {
+          "itemId": "itm_003",
+          "bookQty": 8,
+          "actualQty": 8
+        },
+        {
+          "itemId": "itm_004",
+          "bookQty": 177,
+          "actualQty": 177
+        },
+        {
+          "itemId": "itm_005",
+          "bookQty": 18,
+          "actualQty": 18
+        },
+        {
+          "itemId": "itm_006",
+          "bookQty": 67,
+          "actualQty": 67
+        },
+        {
+          "itemId": "itm_007",
+          "bookQty": 13,
+          "actualQty": 13
+        },
+        {
+          "itemId": "itm_008",
+          "bookQty": 232,
+          "actualQty": 232
+        }
+      ],
+      "createdAt": "2026-10-25"
+    },
+    {
+      "id": "st_001",
+      "no": "PD2026-0001",
+      "date": "2026-10-05",
+      "status": "已完成",
+      "operator": "王老师",
+      "note": "月末抽盘：办公用品 + 教学耗材",
+      "lines": [
+        {
+          "itemId": "itm_001",
+          "bookQty": 192,
+          "actualQty": 192
+        },
+        {
+          "itemId": "itm_002",
+          "bookQty": 407,
+          "actualQty": 407
+        },
+        {
+          "itemId": "itm_003",
+          "bookQty": 10,
+          "actualQty": 8
+        },
+        {
+          "itemId": "itm_004",
+          "bookQty": 177,
+          "actualQty": 177
+        },
+        {
+          "itemId": "itm_005",
+          "bookQty": 18,
+          "actualQty": 18
+        },
+        {
+          "itemId": "itm_006",
+          "bookQty": 67,
+          "actualQty": 67
+        },
+        {
+          "itemId": "itm_007",
+          "bookQty": 10,
+          "actualQty": 13
+        },
+        {
+          "itemId": "itm_008",
+          "bookQty": 232,
+          "actualQty": 232
+        },
+        {
+          "itemId": "itm_009",
+          "bookQty": 658,
+          "actualQty": 658
+        },
+        {
+          "itemId": "itm_010",
+          "bookQty": 345,
+          "actualQty": 345
+        },
+        {
+          "itemId": "itm_011",
+          "bookQty": 136,
+          "actualQty": 136
+        },
+        {
+          "itemId": "itm_012",
+          "bookQty": 16,
+          "actualQty": 16
+        }
+      ],
+      "createdAt": "2026-10-05",
+      "finishedAt": "2026-10-05"
+    }
+  ]
+}
